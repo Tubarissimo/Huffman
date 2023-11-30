@@ -1,0 +1,2825 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\info 
+{\title {\comment Documenta\'E7\'E3o huffman  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+1.0 \par
+}}Documenta\'E7\'E3o huffman}
+{\comment Gerado por doxygen 1.9.8.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Documenta\'E7\'E3o huffman}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Vers\'E3o 1.0\par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Componentes\par \pard\plain 
+{\tc \v \'CDndice dos Componentes}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Classes\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Aqui est\'E3o as classes, estruturas, uni\'F5es e interfaces e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b arvore} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b arvore_descomprimida} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CDndice dos Arquivos\par \pard\plain 
+{\tc \v \'CDndice dos Arquivos}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista de Arquivos\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Esta \'E9 a lista de todos os arquivos e suas respectivas descri\'E7\'F5es:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b codes/huffman/{\b comprimir.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b codes/huffman/{\b descomprimir.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b codes/huffman/{\b huffman.c} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b codes/huffman/{\b structs_huffman.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Classes{\tc \v Classes}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Estrutura arvore\par \pard\plain 
+{\tc\tcl2 \v arvore}
+{\xe \v arvore}
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+\par
+{
+{\f2 #include <comprimir.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void * {\b byte}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b frequencia}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore} * {\b next}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore} * {\b esquerda}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore} * {\b direita}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v byte\:arvore}
+{\xe \v arvore\:byte}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void* arvore::byte}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v direita\:arvore}
+{\xe \v arvore\:direita}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore} * arvore::direita}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v esquerda\:arvore}
+{\xe \v arvore\:esquerda}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore} * arvore::esquerda}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v frequencia\:arvore}
+{\xe \v arvore\:frequencia}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long arvore::frequencia}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v next\:arvore}
+{\xe \v arvore\:next}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore}* arvore::next}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa estrutura foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+codes/huffman/{\b comprimir.h}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia da Estrutura arvore_descomprimida\par \pard\plain 
+{\tc\tcl2 \v arvore_descomprimida}
+{\xe \v arvore_descomprimida}
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+\par
+{
+{\f2 #include <descomprimir.h>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos P\'FAblicos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void * {\b byte}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore_D} * {\b esquerda}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore_D} * {\b direita}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atributos\par
+\pard\plain 
+{\xe \v byte\:arvore_descomprimida}
+{\xe \v arvore_descomprimida\:byte}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void* arvore_descomprimida::byte}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v direita\:arvore_descomprimida}
+{\xe \v arvore_descomprimida\:direita}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore_D} * arvore_descomprimida::direita}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v esquerda\:arvore_descomprimida}
+{\xe \v arvore_descomprimida\:esquerda}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore_D}* arvore_descomprimida::esquerda}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+A documenta\'E7\'E3o para essa estrutura foi gerada a partir do seguinte arquivo:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+codes/huffman/{\b descomprimir.h}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Arquivos{\tc \v Arquivos}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo codes/huffman/comprimir.h\par \pard\plain 
+{\tc\tcl2 \v codes/huffman/comprimir.h}
+{\xe \v codes/huffman/comprimir.h}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "structs_huffman.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b arvore}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore} * {\b novo_no_arvore} (void *i, long frequencia)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 usada para criar um novo n\'F3 da \'E1rvore de Huffman, alocar mem\'F3ria para armazenar o byte de dados, definir a frequ\'EAncia do n\'F3 e inicializar os ponteiros para os n\'F3s filhos como nulos. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b enfileirar} ({\b Arvore} **no_arvore, {\b Arvore} *no)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para manter a fila de prioridades ordenada durante o processo de constru\'E7\'E3o da \'E1rvore de Huffman, garantindo que os n\'F3s com frequ\'EAncias mais baixas estejam na frente da fila. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore} * {\b desenfileirar} ({\b Arvore} **fila)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para manter a fila de prioridades atualizada durante o processo de constru\'E7\'E3o da \'E1rvore de Huffman, garantindo que o n\'F3 com a menor frequ\'EAncia seja sempre removido da frente da fila. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore} * {\b novo_no_arvore_huffman} ({\b Arvore} *esquerda, {\b Arvore} *direita, void *byte)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada durante a constru\'E7\'E3o da \'E1rvore de Huffman para criar um novo n\'F3 raiz que combina dois n\'F3s filhos em uma \'E1rvore maior. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b criar_arvore_huffman} ({\b Arvore} **fila, {\b Arvore} **arvore_huffman)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+No geral, esta fun\'E7\'E3o monta a \'E1rvore de Huffman combinando gradualmente os n\'F3s da fila, at\'E9 que reste apenas a \'E1rvore completa na fila. A \'E1rvore resultante \'E9 atribu\'EDda ao ponteiro arvore_huffman passado como argumento. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b altura_arvore} ({\b Arvore} *no_arvore)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para calcular a altura de uma \'E1rvore bin\'E1ria, representada por um n\'F3. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+long {\b tamanho_arvore} ({\b Arvore} *no_arvore)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para calcular o n\'FAmero de n\'F3s em uma \'E1rvore. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+uint8_t ** {\b criar_dicionario} (int {\b tamanho_arvore})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para preparar uma estrutura de dados que armazenar\'E1 os c\'F3digos de Huffman associados a cada s\'EDmbolo na \'E1rvore de Huffman. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b gerar_codigos} (uint8_t **dicionario, {\b Arvore} *raiz, long profundidade, uint8_t *aux)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para percorrer a \'E1rvore de Huffman a partir da raiz at\'E9 as folhas, construindo os c\'F3digos de Huffman associados a cada s\'EDmbolo e armazenando-os no dicion\'E1rio para uso posterior na codifica\'E7\'E3o e decodifica\'E7\'E3o de dados. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b lixo} (uint8_t **dicionario, long *frequencia)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Respons\'E1vel por calcular o n\'FAmero de bits "desperdi\'E7ados" ou economizados ap\'F3s a codifica\'E7\'E3o de Huffman. Ela faz isso comparando o n\'FAmero de bits necess\'E1rios para representar os dados originais com o n\'FAmero de bits necess\'E1rios ap\'F3s a compress\'E3o de Huffman. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b escrever_arvore_no_cabecalho} (FILE *arquivo_comprimido, {\b Arvore} *{\b arvore})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 respons\'E1vel por escrever a estrutura da \'E1rvore de Huffman no cabe\'E7alho de um arquivo comprimido. Isso \'E9 necess\'E1rio para que o arquivo descomprimido saiba como reconstruir a \'E1rvore de Huffman durante o processo de descompress\'E3o. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b escrever_cabecalho_no_arquivo} (FILE *arquivo_comprimido, int bits_de_lixo, int {\b tamanho_arvore}, {\b Arvore} *{\b arvore})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o permite que o arquivo descomprimido saiba quantos bits de lixo ignorar e como reconstruir a \'E1rvore de Huffman para decodificar os dados comprimidos. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b escrever_bits_compactados} (FILE *arquivo_comprimido, uint8_t *dados, uint8_t **dicionario, long tamanho_arquivo)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Em resumo, essa fun\'E7\'E3o l\'EA os dados originais, mapeia cada byte para seu c\'F3digo Huffman correspondente e escreve os bits compactados no arquivo comprimido, garantindo que os bytes sejam escritos corretamente no arquivo, mesmo quando eles n\'E3o formam m\'FAltiplos de 8 bits. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b free_dicionario} (uint8_t **dicionario)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C9 respons\'E1vel por liberar a mem\'F3ria alocada dinamicamente para o dicion\'E1rio de c\'F3digos de Huffman. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b free_arvore_huffman} ({\b Arvore} *raiz)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C9 respons\'E1vel por liberar a mem\'F3ria alocada dinamicamente para a nossa \'E1rvore de Huffman. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b comprimir} (char *nome_arquivo)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o comprime um arquivo de entrada usando o algoritmo de Huffman, cria um arquivo comprimido com a extens\'E3o ".huff" e armazena a \'E1rvore de Huffman e os bits compactados no cabe\'E7alho do arquivo. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v altura_arvore\:comprimir.h}
+{\xe \v comprimir.h\:altura_arvore}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long altura_arvore ({\b Arvore} *  {\i no_arvore})}}
+\par
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para calcular a altura de uma \'E1rvore bin\'E1ria, representada por um n\'F3. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i no_arvore} \cell }{Um ponteiro para um n\'F3. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+A altura da \'E1rvore. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 153 \{\par
+154     {\cf18 int} esquerda, direita;\par
+155     {\cf19 if}(no_arvore == NULL)\par
+156     \{\par
+157         {\cf19 return} -1;\par
+158     \}\par
+159     {\cf19 else}\par
+160     \{\par
+161         esquerda = altura_arvore(no_arvore->esquerda)+1;\par
+162         direita = altura_arvore(no_arvore->direita)+1;\par
+163         {\cf19 if}(esquerda > direita)\par
+164         \{\par
+165             {\cf19 return} esquerda;\par
+166         \}\par
+167         {\cf19 else}\par
+168         \{\par
+169             {\cf19 return} direita;\par
+170         \}\par
+171     \}\par
+172 \}\par
+}
+}
+{\xe \v comprimir\:comprimir.h}
+{\xe \v comprimir.h\:comprimir}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void comprimir (char *  {\i nome_arquivo})}}
+\par
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o comprime um arquivo de entrada usando o algoritmo de Huffman, cria um arquivo comprimido com a extens\'E3o ".huff" e armazena a \'E1rvore de Huffman e os bits compactados no cabe\'E7alho do arquivo. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nome_arquivo} \cell }{Uma string contendo o nome do arquivo que ser\'E1 comprimido. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 429 \{\par
+430     {\cf20 //cria a fila de frequ\'EAncias}\par
+431     Arvore *fila = NULL;\par
+432     {\cf20 //criando arvore de huffman}\par
+433     Arvore *arvore_huffman = NULL;\par
+434     {\cf20 //criando a variavel do dicionario}\par
+435     uint8_t **dicionario; \par
+436     {\cf20 //criando a variavel auxiliar para preencher o dicionario}\par
+437     uint8_t *aux;\par
+438 \par
+439     {\cf20 //abrindo o arquivo}\par
+440     FILE *arquivo = fopen(nome_arquivo, {\cf22 "rb"}), *arquivo_comprimido;\par
+441     {\cf19 if}(arquivo == NULL)\par
+442     \{\par
+443         printf({\cf22 "\\nArquivo n\'E3o encontrado!\\n"});\par
+444         exit(1);\par
+445     \}\par
+446 \par
+447     {\cf20 //criando a variavel que vai manter todos os bytes}\par
+448     uint8_t *dados;\par
+449     {\cf20 //criando a tabela de frequencia}\par
+450     {\cf18 long} frequencia[Max_table], i;\par
+451 \par
+452     {\cf20 //lendo os bytes do arquivo}\par
+453     {\cf20 //procura o fim do arquivo}\par
+454     fseek(arquivo, 0, SEEK_END);\par
+455     {\cf20 //pega o tamanho do arquivo}\par
+456     {\cf18 long} tamanho_arquivo = ftell(arquivo);\par
+457     {\cf20 //volta o ponteiro para o inicio do arquivo}\par
+458     fseek(arquivo, 0, SEEK_SET);\par
+459     {\cf20 //aloca memoria para a variavel dados que usaremos para pegar todos os bytes do arquivo}\par
+460     dados = malloc(tamanho_arquivo);\par
+461     {\cf19 if}(dados == NULL)\par
+462     \{\par
+463         printf({\cf22 "\\nN\'E3o foi poss\'EDvel alocar mem\'F3ria para o vetor do arquivo\\n"});\par
+464         exit(1);\par
+465     \}\par
+466     {\cf20 //setando os bytes para 0}\par
+467     memset(dados, 0, tamanho_arquivo);\par
+468     {\cf20 //pegando todos os bytes do arquivo}\par
+469     fread(dados, 1, tamanho_arquivo, arquivo);\par
+470     {\cf20 //fechando o arquivo}\par
+471     fclose(arquivo);\par
+472 \par
+473     {\cf20 //iniciando as frequencias como 0}\par
+474     memset(frequencia, 0, Max_table*{\cf17 sizeof}({\cf18 long}));\par
+475 \par
+476     {\cf20 //obtendo frequencias dos bytes}\par
+477     {\cf19 for}(i = 0; i < tamanho_arquivo; i++)\par
+478     \{\par
+479         {\cf20 //pegando a frequencia de cada byte}\par
+480         frequencia[dados[i]]++;\par
+481     \}\par
+482     \par
+483     {\cf20 //montando a lista de frequ\'EAncia}\par
+484     {\cf19 for}(i = 0; i < Max_table; i++)\par
+485     \{\par
+486         {\cf20 //avaliando se a frequencia e igual a 0 para nao pegarmos o byte que nao tem no arquivo}\par
+487         {\cf19 if}(frequencia[i] != 0)\par
+488         \{\par
+489             {\cf20 //fazendo o cast da variavel i para do tipo unsigned char}\par
+490             (uint8_t)i;\par
+491             {\cf20 //insere na fila de frequencia de maneira organizada}\par
+492             enfileirar(&fila, novo_no_arvore(&i, frequencia[i]));\par
+493         \}\par
+494     \}\par
+495 \par
+496     {\cf20 //criando a arvore de huffman}\par
+497     criar_arvore_huffman(&fila, &arvore_huffman);\par
+498 \par
+499     {\cf20 //pegando a altura da arvore}\par
+500     {\cf18 long} altura_da_arvore = altura_arvore(arvore_huffman);\par
+501     {\cf20 //pegando o tamanho da arvore}\par
+502     {\cf18 long} tamanho_da_arvore = tamanho_arvore(arvore_huffman);\par
+503 \par
+504     \par
+505     {\cf20 //criando o dicion\'E1rio}\par
+506     dicionario = criar_dicionario(altura_da_arvore + 1);\par
+507 \par
+508     {\cf20 //criando o vetor auxiliar para preencher o dicionario}\par
+509     aux = (uint8_t*)malloc({\cf17 sizeof}(uint8_t) * (altura_da_arvore + 1));\par
+510     {\cf19 if}(aux == NULL)\par
+511     \{\par
+512         printf({\cf22 "\\nN\'E3o foi poss\'EDvel alocar mem\'F3ria para o array auxiliar\\n"});\par
+513         exit(1);\par
+514     \}\par
+515     \par
+516     {\cf20 //preenchendo o dicionario}\par
+517     gerar_codigos(dicionario, arvore_huffman, 0, aux);\par
+518     \par
+519     {\cf20 //calculo do lixo de bits}\par
+520     {\cf18 int} bits_de_lixo = lixo(dicionario, frequencia);\par
+521     {\cf20 //mudanca do nome, exemplo: arquivo.txt vira arquivo.txt.huff}\par
+522     {\cf19 for}(i = 0; i != 106; i++)\par
+523     \{\par
+524         {\cf19 if}(nome_arquivo[i] == {\cf23 '\\0'} && i + 6 <= 106)\par
+525         \{\par
+526             nome_arquivo[i] = {\cf23 '.'};\par
+527             nome_arquivo[i + 1] = {\cf23 'h'};\par
+528             nome_arquivo[i + 2] = {\cf23 'u'};\par
+529             nome_arquivo[i + 3] = {\cf23 'f'};\par
+530             nome_arquivo[i + 4] = {\cf23 'f'};\par
+531             nome_arquivo[i + 5] = {\cf23 '\\0'};\par
+532             {\cf19 break};\par
+533         \}\par
+534     \}\par
+535 \par
+536     {\cf20 //escrevendo o arquivo comprimido}\par
+537     arquivo_comprimido = fopen(nome_arquivo,{\cf22 "wb"});\par
+538     {\cf19 if}(arquivo_comprimido == NULL)\par
+539     \{\par
+540         printf({\cf22 "\\nN\'E3o foi poss\'EDvel abrir o arquivo de sa\'EDda\\n"});\par
+541         exit(1);\par
+542     \}\par
+543     {\cf20 //escrevendo o cabecalho}\par
+544     escrever_cabecalho_no_arquivo(arquivo_comprimido, bits_de_lixo, tamanho_da_arvore, arvore_huffman);\par
+545     {\cf20 //escrevendo os bytes compactados}\par
+546     escrever_bits_compactados(arquivo_comprimido, dados, dicionario, tamanho_arquivo);\par
+547     {\cf20 //fechando o arquivo}\par
+548     fclose(arquivo_comprimido);\par
+549 \par
+550     printf({\cf22 "\\nArquivo comprimido com sucesso!!!\\n"});\par
+551 \par
+552     {\cf20 //libera a memoria do dicionario}\par
+553     free_dicionario(dicionario);\par
+554     {\cf20 //libera a memoria da arvore}\par
+555     free_arvore_huffman(arvore_huffman);\par
+556     {\cf20 //libera a memoria do vetor auxiliar}\par
+557     free(aux);\par
+558     {\cf20 //libera a memoria alocada para o vetor dados}\par
+559     free(dados);\par
+560     aux = NULL;\par
+561     dicionario = NULL;\par
+562     arvore_huffman = NULL;\par
+563     dados = NULL;\par
+564     \par
+565     {\cf19 return};\par
+566 \}\par
+}
+}
+{\xe \v criar_arvore_huffman\:comprimir.h}
+{\xe \v comprimir.h\:criar_arvore_huffman}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void criar_arvore_huffman ({\b Arvore} **  {\i fila}, {\b Arvore} **  {\i arvore_huffman})}}
+\par
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+No geral, esta fun\'E7\'E3o monta a \'E1rvore de Huffman combinando gradualmente os n\'F3s da fila, at\'E9 que reste apenas a \'E1rvore completa na fila. A \'E1rvore resultante \'E9 atribu\'EDda ao ponteiro arvore_huffman passado como argumento. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i fila} \cell }{Um ponteiro para uma fila de prioridades. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arvore_huffman} \cell }{Um ponteiro para um ponteiro para a \'E1rvore de Huffman. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 132 \{\par
+133     uint8_t {\cf18 byte} = {\cf23 '*'};\par
+134     {\cf20 //montando a arvore de huffman}\par
+135     {\cf19 while}((*fila)->next != NULL)\par
+136     \{\par
+137         Arvore *esquerda = desenfileirar(&*fila), *direita = desenfileirar(&*fila), *raiz;\par
+138         raiz = novo_no_arvore_huffman(esquerda, direita, &{\cf18 byte});\par
+139         enfileirar(&*fila, raiz);\par
+140     \}\par
+141 \par
+142     *arvore_huffman = desenfileirar(&*fila);\par
+143     {\cf19 return};\par
+144 \}\par
+}
+}
+{\xe \v criar_dicionario\:comprimir.h}
+{\xe \v comprimir.h\:criar_dicionario}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+uint8_t ** criar_dicionario (int  {\i tamanho_arvore})}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para preparar uma estrutura de dados que armazenar\'E1 os c\'F3digos de Huffman associados a cada s\'EDmbolo na \'E1rvore de Huffman. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tamanho_arvore} \cell }{O tamanho da nossa \'E1rvore de Huffman. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Um ponteiro para um array de ponteiros de onde cada elemento desse array ser\'E1 uma sequ\'EAncia de bytes que representa o c\'F3digo para um s\'EDmbolo. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 206 \{\par
+207     uint8_t **dicionario = (uint8_t**)malloc({\cf17 sizeof}(uint8_t*) * Max_table);\par
+208     {\cf19 if}(dicionario == NULL)\par
+209     \{\par
+210         printf({\cf22 "\\nERRO AO ALOCAR DICION\'C1RIO\\n"});\par
+211         exit(1);\par
+212     \}\par
+213     {\cf19 for}({\cf18 int} i = 0; i < Max_table; i++)\par
+214     \{\par
+215         dicionario[i] = (uint8_t*)malloc({\cf17 sizeof}(uint8_t) * tamanho_arvore);\par
+216         {\cf19 if}(dicionario[i] == NULL)\par
+217         \{\par
+218             printf({\cf22 "\\nERRO AO ALOCAR RESTO DO DICION\'C1RIO\\n"});\par
+219             exit(1);\par
+220         \}\par
+221         dicionario[i][0] = {\cf23 '\\0'};\par
+222     \}\par
+223 \par
+224     {\cf19 return} dicionario;\par
+225 \}\par
+}
+}
+{\xe \v desenfileirar\:comprimir.h}
+{\xe \v comprimir.h\:desenfileirar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore} * desenfileirar ({\b Arvore} **  {\i fila})}}
+\par
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para manter a fila de prioridades atualizada durante o processo de constru\'E7\'E3o da \'E1rvore de Huffman, garantindo que o n\'F3 com a menor frequ\'EAncia seja sempre removido da frente da fila. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i fila} \cell }{Um ponteiro para um ponteiro para a fila de prioridades. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Um ponteiro para o n\'F3 "desenfileirado". \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 82 \{\par
+83     {\cf19 if}(fila == NULL)\par
+84     \{\par
+85         {\cf19 return} NULL;\par
+86     \}\par
+87     Arvore *desenfileirado = *fila;\par
+88     *fila = desenfileirado->next;\par
+89     desenfileirado->next = NULL;\par
+90     {\cf19 return} desenfileirado;\par
+91 \}\par
+}
+}
+{\xe \v enfileirar\:comprimir.h}
+{\xe \v comprimir.h\:enfileirar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void enfileirar ({\b Arvore} **  {\i no_arvore}, {\b Arvore} *  {\i no})}}
+\par
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para manter a fila de prioridades ordenada durante o processo de constru\'E7\'E3o da \'E1rvore de Huffman, garantindo que os n\'F3s com frequ\'EAncias mais baixas estejam na frente da fila. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i no_arvore} \cell }{Um ponteiro para um ponteiro para a raiz da fila de prioridades. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i no} \cell }{Um ponteiro para um n\'F3 da \'E1rvore de Huffman que deve ser enfileirado. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 49 \{\par
+50     Arvore *novo_no_fila = no;\par
+51 \par
+52     {\cf19 if}((*no_arvore) == NULL || (*no_arvore)->frequencia >= novo_no_fila->frequencia)\par
+53     \{\par
+54         novo_no_fila->next = *no_arvore;\par
+55         *no_arvore = novo_no_fila;\par
+56     \}\par
+57     {\cf19 else}\par
+58     \{\par
+59         Arvore *aux = *no_arvore;\par
+60         {\cf19 while}(aux->next != NULL)\par
+61         \{\par
+62             {\cf19 if}(aux->next->frequencia >= novo_no_fila->frequencia)\par
+63             \{\par
+64                 {\cf19 break};\par
+65             \}\par
+66             aux = aux->next;\par
+67         \}   \par
+68         novo_no_fila->next = aux->next;\par
+69         aux->next = novo_no_fila;\par
+70     \}\par
+71     {\cf19 return};\par
+72 \}\par
+}
+}
+{\xe \v escrever_arvore_no_cabecalho\:comprimir.h}
+{\xe \v comprimir.h\:escrever_arvore_no_cabecalho}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void escrever_arvore_no_cabecalho (FILE *  {\i arquivo_comprimido}, {\b Arvore} *  {\i arvore})}}
+\par
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 respons\'E1vel por escrever a estrutura da \'E1rvore de Huffman no cabe\'E7alho de um arquivo comprimido. Isso \'E9 necess\'E1rio para que o arquivo descomprimido saiba como reconstruir a \'E1rvore de Huffman durante o processo de descompress\'E3o. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arquivo_comprimido} \cell }{Um ponteiro para o arquivo comprimido onde a estrutura da \'E1rvore de Huffman ser\'E1 escrita no cabe\'E7alho. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arvore} \cell }{O n\'F3 raiz da \'E1rvore de Huffman. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 294 \{\par
+295     {\cf19 if}(arvore == NULL)\par
+296     \{\par
+297         {\cf19 return};\par
+298     \}\par
+299     {\cf19 if}(arvore->esquerda == NULL && arvore->direita == NULL && (*(uint8_t*)arvore->byte == {\cf23 '*'} || *(uint8_t*)arvore->byte == {\cf23 '\\\\'}))\par
+300     \{\par
+301         uint8_t scape = (uint8_t){\cf23 '\\\\'};\par
+302         fwrite(&scape, {\cf17 sizeof}(uint8_t), 1, arquivo_comprimido);\par
+303     \}\par
+304     uint8_t {\cf18 byte} = *(uint8_t*)arvore->byte;\par
+305     fwrite(&{\cf18 byte}, {\cf17 sizeof}(uint8_t), 1, arquivo_comprimido);\par
+306     escrever_arvore_no_cabecalho(arquivo_comprimido, arvore->esquerda);\par
+307     escrever_arvore_no_cabecalho(arquivo_comprimido, arvore->direita);\par
+308 \}\par
+}
+}
+{\xe \v escrever_bits_compactados\:comprimir.h}
+{\xe \v comprimir.h\:escrever_bits_compactados}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void escrever_bits_compactados (FILE *  {\i arquivo_comprimido}, uint8_t *  {\i dados}, uint8_t **  {\i dicionario}, long  {\i tamanho_arquivo})}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Em resumo, essa fun\'E7\'E3o l\'EA os dados originais, mapeia cada byte para seu c\'F3digo Huffman correspondente e escreve os bits compactados no arquivo comprimido, garantindo que os bytes sejam escritos corretamente no arquivo, mesmo quando eles n\'E3o formam m\'FAltiplos de 8 bits. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arquivo_comprimido} \cell }{Um ponteiro para o arquivo no qual os bits compactados ser\'E3o escritos. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dados} \cell }{Um ponteiro para um array de bytes contendo os dados originais que ser\'E3o compactados. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dicionario} \cell }{Um array de strings (c\'F3digos de Huffman) que mapeiam cada byte para sua representa\'E7\'E3o compactada. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tamanho_arquivo} \cell }{O tamanho do array de dados (n\'FAmero de bytes) que ser\'E3o compactados e escritos no arquivo. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 360 \{\par
+361     {\cf18 long} indice_bit = 7;\par
+362     uint8_t {\cf18 byte} = 0;\par
+363     {\cf19 for}({\cf18 int} i = 0; i < tamanho_arquivo; i++)\par
+364     \{\par
+365         {\cf19 for}({\cf18 int} j = 0; dicionario[dados[i]][j] != {\cf23 '\\0'}; j++)\par
+366         \{\par
+367             {\cf19 if}(dicionario[dados[i]][j] == {\cf23 '1'})\par
+368             \{\par
+369                 {\cf18 byte} |= 1 << indice_bit;\par
+370             \}\par
+371             indice_bit--;\par
+372             {\cf19 if}(indice_bit < 0)\par
+373             \{\par
+374                 fwrite(&{\cf18 byte}, {\cf17 sizeof}({\cf18 unsigned} {\cf18 char}), 1, arquivo_comprimido);\par
+375                 indice_bit = 7;\par
+376                 {\cf18 byte} = 0;\par
+377             \}\par
+378         \}\par
+379     \}\par
+380     {\cf19 if}(indice_bit != 7)\par
+381     \{\par
+382         fwrite(&{\cf18 byte}, {\cf17 sizeof}({\cf18 unsigned} {\cf18 char}), 1, arquivo_comprimido);\par
+383     \}\par
+384 \par
+385     {\cf19 return};\par
+386 \}\par
+}
+}
+{\xe \v escrever_cabecalho_no_arquivo\:comprimir.h}
+{\xe \v comprimir.h\:escrever_cabecalho_no_arquivo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void escrever_cabecalho_no_arquivo (FILE *  {\i arquivo_comprimido}, int  {\i bits_de_lixo}, int  {\i tamanho_arvore}, {\b Arvore} *  {\i arvore})}}
+\par
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o permite que o arquivo descomprimido saiba quantos bits de lixo ignorar e como reconstruir a \'E1rvore de Huffman para decodificar os dados comprimidos. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arquivo_comprimido} \cell }{Um ponteiro para o arquivo comprimido onde o cabe\'E7alho ser\'E1 escrito. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i bits_de_lixo} \cell }{O n\'FAmero de bits de "lixo" (bits extras) que podem ser ignorados na descompress\'E3o. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tamanho_arvore} \cell }{O tamanho da \'E1rvore de Huffman (em bytes). \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arvore} \cell }{O n\'F3 raiz da \'E1rvore de Huffman. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 320 \{\par
+321     {\cf20 //setando os bits}\par
+322     uint16_t tamanho_lixo_e_arvore = 0, mascara;\par
+323     {\cf20 //guarda o lixo no vetor para ser gravado no arquivo}\par
+324     tamanho_lixo_e_arvore |= bits_de_lixo << 13;\par
+325     {\cf20 //gravando o tamanho da arvore no vetor}\par
+326     {\cf19 for}({\cf18 int} i = 0; i < 13; i++)\par
+327     \{\par
+328         mascara = 1 << i;\par
+329         {\cf19 if}(tamanho_arvore & mascara)\par
+330         \{\par
+331             tamanho_lixo_e_arvore |= 1 << i;\par
+332         \}\par
+333         {\cf19 else}\par
+334         \{\par
+335             tamanho_lixo_e_arvore |= 0 << i;\par
+336         \}\par
+337     \}\par
+338     {\cf20 //Como a ordem em que a fwrite escreve depende da arquitetura do processador, ou seja, little-endian ou big-endian precisamos garantir que}\par
+339     {\cf20 //os dois bytes para lixo e para tamanho da arvore sejam escritos corretamente, para isso usamos a funcao htons da biblioteca arpa/inet.h}\par
+340     tamanho_lixo_e_arvore = htons(tamanho_lixo_e_arvore);\par
+341     {\cf20 //gravando o lixo e o tamanho da arvore}\par
+342     fwrite(&tamanho_lixo_e_arvore, 1, 2, arquivo_comprimido);\par
+343     {\cf20 //gravando a arvore}\par
+344     escrever_arvore_no_cabecalho(arquivo_comprimido, arvore);\par
+345 \}\par
+}
+}
+{\xe \v free_arvore_huffman\:comprimir.h}
+{\xe \v comprimir.h\:free_arvore_huffman}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void free_arvore_huffman ({\b Arvore} *  {\i raiz})}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C9 respons\'E1vel por liberar a mem\'F3ria alocada dinamicamente para a nossa \'E1rvore de Huffman. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i raiz} \cell }{Um ponteiro para a raiz da nossa \'E1rvore de Huffman. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 410 \{\par
+411     {\cf19 if}(raiz == NULL)\par
+412     \{\par
+413         {\cf19 return};\par
+414     \}\par
+415     free_arvore_huffman(raiz->esquerda);\par
+416     free_arvore_huffman(raiz->direita);\par
+417     free(raiz->byte);\par
+418     free(raiz);\par
+419     {\cf19 return};\par
+420 \}\par
+}
+}
+{\xe \v free_dicionario\:comprimir.h}
+{\xe \v comprimir.h\:free_dicionario}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void free_dicionario (uint8_t **  {\i dicionario})}}
+\par
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'C9 respons\'E1vel por liberar a mem\'F3ria alocada dinamicamente para o dicion\'E1rio de c\'F3digos de Huffman. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dicionario} \cell }{Um ponteiro para um array de ponteiros para strings que representa o dicion\'E1rio de c\'F3digos de Huffman. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 395 \{\par
+396     {\cf19 for}({\cf18 int} i = 0; i < 256; i++)\par
+397     \{\par
+398         free(dicionario[i]);\par
+399     \}\par
+400     free(dicionario);\par
+401     {\cf19 return};\par
+402 \}\par
+}
+}
+{\xe \v gerar_codigos\:comprimir.h}
+{\xe \v comprimir.h\:gerar_codigos}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void gerar_codigos (uint8_t **  {\i dicionario}, {\b Arvore} *  {\i raiz}, long  {\i profundidade}, uint8_t *  {\i aux})}}
+\par
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para percorrer a \'E1rvore de Huffman a partir da raiz at\'E9 as folhas, construindo os c\'F3digos de Huffman associados a cada s\'EDmbolo e armazenando-os no dicion\'E1rio para uso posterior na codifica\'E7\'E3o e decodifica\'E7\'E3o de dados. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dicionario} \cell }{Um array de ponteiros representando o dicion\'E1rio de c\'F3digos de Huffman. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i raiz} \cell }{O n\'F3 raiz da \'E1rvore de Huffman. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i profundidade} \cell }{A profundidade atual na \'E1rvore durante a recurs\'E3o. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i aux} \cell }{Um array usado temporariamente para construir os c\'F3digos de Huffman. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 238 \{\par
+239     {\cf19 if}(raiz->esquerda == NULL && raiz->direita == NULL)\par
+240     \{\par
+241         uint8_t {\cf18 byte} = *(uint8_t*)raiz->byte;\par
+242         {\cf19 for}({\cf18 int} i = 0; i < profundidade; i++)\par
+243         \{\par
+244             dicionario[byte][i] = aux[i];\par
+245         \}\par
+246         dicionario[byte][profundidade] = {\cf23 '\\0'};\par
+247         {\cf19 return};\par
+248     \}\par
+249 \par
+250     aux[profundidade] = {\cf23 '0'};\par
+251     gerar_codigos(dicionario, raiz->esquerda, profundidade + 1, aux);\par
+252 \par
+253     aux[profundidade] = {\cf23 '1'};\par
+254     gerar_codigos(dicionario, raiz->direita, profundidade + 1, aux);\par
+255 \}\par
+}
+}
+{\xe \v lixo\:comprimir.h}
+{\xe \v comprimir.h\:lixo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int lixo (uint8_t **  {\i dicionario}, long *  {\i frequencia})}}
+\par
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Respons\'E1vel por calcular o n\'FAmero de bits "desperdi\'E7ados" ou economizados ap\'F3s a codifica\'E7\'E3o de Huffman. Ela faz isso comparando o n\'FAmero de bits necess\'E1rios para representar os dados originais com o n\'FAmero de bits necess\'E1rios ap\'F3s a compress\'E3o de Huffman. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dicionario} \cell }{Um array de ponteiros representando o dicion\'E1rio de c\'F3digos de Huffman. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i frequencia} \cell }{Um array de longs representando as frequ\'EAncias dos s\'EDmbolos. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Determina o n\'FAmero de bits economizados (ou desperdi\'E7ados) que indica quantos bits n\'E3o se ajustam completamente em um byte. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 267                                                 \{\par
+268     {\cf18 long} bits_antes = 0;\par
+269     {\cf18 long} bits_depois = 0;\par
+270     {\cf19 for}({\cf18 int} i = 0; i < Max_table; i++)\par
+271     \{\par
+272         {\cf19 if} (frequencia[i] != 0)\par
+273         \{\par
+274             bits_antes += frequencia[i] * 8;\par
+275             bits_depois += frequencia[i] * strlen(dicionario[i]);\par
+276         \}\par
+277     \}\par
+278 \par
+279     printf({\cf22 "\\nbits antes: %ld || bits depois: %ld\\n"}, bits_antes, bits_depois);\par
+280 \par
+281     {\cf19 return} (bits_antes - bits_depois) % 8;\par
+282 \}\par
+}
+}
+{\xe \v novo_no_arvore\:comprimir.h}
+{\xe \v comprimir.h\:novo_no_arvore}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore} * novo_no_arvore (void *  {\i i}, long  {\i frequencia})}}
+\par
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 usada para criar um novo n\'F3 da \'E1rvore de Huffman, alocar mem\'F3ria para armazenar o byte de dados, definir a frequ\'EAncia do n\'F3 e inicializar os ponteiros para os n\'F3s filhos como nulos. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i i} \cell }{Um ponteiro para void que vai pegar o byte para traferir para o n\'F3 da \'E1rvore. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i frequencia} \cell }{Um long para para a frequencia do byte. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Um ponteiro para o novo n\'F3 criado. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19 \{\par
+20     Arvore *novo_no = (Arvore*)malloc({\cf17 sizeof}(Arvore));\par
+21     {\cf19 if}(novo_no == NULL)\par
+22     \{\par
+23         printf({\cf22 "\\nERRO AO ALOCAR N\'D3 DA \'C1RVORE\\n"});\par
+24         exit(1);\par
+25     \}\par
+26     novo_no->byte = ({\cf18 void}*)malloc(1);\par
+27     {\cf19 if}(novo_no->byte == NULL)\par
+28     \{\par
+29         printf({\cf22 "\\nERRO AO ALOCAR BYTE\\n"});\par
+30         exit(1);\par
+31     \}\par
+32     memcpy(novo_no->byte, i, 1);\par
+33     novo_no->frequencia = frequencia;\par
+34     novo_no->esquerda = NULL;\par
+35     novo_no->next = NULL;\par
+36     novo_no->direita = NULL;\par
+37 \par
+38     {\cf19 return} novo_no;\par
+39 \}\par
+}
+}
+{\xe \v novo_no_arvore_huffman\:comprimir.h}
+{\xe \v comprimir.h\:novo_no_arvore_huffman}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore} * novo_no_arvore_huffman ({\b Arvore} *  {\i esquerda}, {\b Arvore} *  {\i direita}, void *  {\i byte})}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada durante a constru\'E7\'E3o da \'E1rvore de Huffman para criar um novo n\'F3 raiz que combina dois n\'F3s filhos em uma \'E1rvore maior. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i esquerda} \cell }{N\'F3 filho \'E0 esquerda que ser\'E1 a raiz de uma sub\'E1rvore para montar nossa \'E1rvore de huffman. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i direita} \cell }{N\'F3 filho \'E0 direita que ser\'E1 a raiz de uma sub\'E1rvore para montar nossa \'E1rvore de huffman. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i byte} \cell }{O byte associado ao n\'F3 raiz que est\'E1 sendo criado. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Um ponteiro para o novo n\'F3 raiz. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 103 \{\par
+104     Arvore *raiz = (Arvore*)malloc({\cf17 sizeof}(Arvore));\par
+105     {\cf19 if}(raiz == NULL)\par
+106     \{\par
+107         printf({\cf22 "\\nERRO AO ALOCAR RAIZ\\n"});\par
+108         exit(1);\par
+109     \}\par
+110     raiz->byte = ({\cf18 void}*)malloc(1);\par
+111     {\cf19 if}(raiz->byte == NULL)\par
+112     \{\par
+113         printf({\cf22 "\\nERRO AO ALOCAR BYTE PARA RAIZ\\n"});\par
+114         exit(1);\par
+115     \}\par
+116     memcpy(raiz->byte, {\cf18 byte}, 1);\par
+117     raiz->frequencia = (esquerda->frequencia) + (direita->frequencia);\par
+118     raiz->esquerda = esquerda;\par
+119     raiz->direita = direita;\par
+120 \par
+121     {\cf19 return} raiz;\par
+122 \}\par
+}
+}
+{\xe \v tamanho_arvore\:comprimir.h}
+{\xe \v comprimir.h\:tamanho_arvore}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+long tamanho_arvore ({\b Arvore} *  {\i no_arvore})}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 usada para calcular o n\'FAmero de n\'F3s em uma \'E1rvore. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i no_arvore} \cell }{Um ponteiro para a raiz da nossa \'E1rvore. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+O n\'FAmero total de n\'F3s na \'E1rvore. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 181 \{\par
+182     {\cf19 if}(no_arvore == NULL)\par
+183     \{\par
+184         {\cf19 return} 0;\par
+185     \}\par
+186     {\cf19 return} 1 + (no_arvore->esquerda == NULL &&\par
+187                 no_arvore->direita == NULL &&\par
+188                 (*({\cf18 unsigned} {\cf18 char}*)no_arvore->byte == {\cf23 '*'} ||\par
+189                 *({\cf18 unsigned} {\cf18 char}*)no_arvore->byte == {\cf23 '\\\\'}))\par
+190                 +\par
+191                 tamanho_arvore(no_arvore->esquerda)\par
+192                 +\par
+193                 tamanho_arvore(no_arvore->direita);\par
+194 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+comprimir.h\par \pard\plain 
+{\tc\tcl2 \v codes/huffman/comprimir.h}
+{\xe \v codes/huffman/comprimir.h}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #include "structs_huffman.h"}\par
+2 \par
+3 {\cf17 struct }arvore\par
+4 \{\par
+5     {\cf18 void} *byte;\par
+6     {\cf18 long} frequencia;\par
+7     Arvore *next, *esquerda, *direita;\par
+8 \};\par
+9 \par
+18 Arvore* novo_no_arvore({\cf18 void} *i, {\cf18 long} frequencia)\par
+19 \{\par
+20     Arvore *novo_no = (Arvore*)malloc({\cf17 sizeof}(Arvore));\par
+21     {\cf19 if}(novo_no == NULL)\par
+22     \{\par
+23         printf({\cf22 "\\nERRO AO ALOCAR N\'D3 DA \'C1RVORE\\n"});\par
+24         exit(1);\par
+25     \}\par
+26     novo_no->byte = ({\cf18 void}*)malloc(1);\par
+27     {\cf19 if}(novo_no->byte == NULL)\par
+28     \{\par
+29         printf({\cf22 "\\nERRO AO ALOCAR BYTE\\n"});\par
+30         exit(1);\par
+31     \}\par
+32     memcpy(novo_no->byte, i, 1);\par
+33     novo_no->frequencia = frequencia;\par
+34     novo_no->esquerda = NULL;\par
+35     novo_no->next = NULL;\par
+36     novo_no->direita = NULL;\par
+37 \par
+38     {\cf19 return} novo_no;\par
+39 \}\par
+40 \par
+48 {\cf18 void} enfileirar(Arvore **no_arvore, Arvore *no)\par
+49 \{\par
+50     Arvore *novo_no_fila = no;\par
+51 \par
+52     {\cf19 if}((*no_arvore) == NULL || (*no_arvore)->frequencia >= novo_no_fila->frequencia)\par
+53     \{\par
+54         novo_no_fila->next = *no_arvore;\par
+55         *no_arvore = novo_no_fila;\par
+56     \}\par
+57     {\cf19 else}\par
+58     \{\par
+59         Arvore *aux = *no_arvore;\par
+60         {\cf19 while}(aux->next != NULL)\par
+61         \{\par
+62             {\cf19 if}(aux->next->frequencia >= novo_no_fila->frequencia)\par
+63             \{\par
+64                 {\cf19 break};\par
+65             \}\par
+66             aux = aux->next;\par
+67         \}   \par
+68         novo_no_fila->next = aux->next;\par
+69         aux->next = novo_no_fila;\par
+70     \}\par
+71     {\cf19 return};\par
+72 \}\par
+73 \par
+81 Arvore* desenfileirar(Arvore **fila)\par
+82 \{\par
+83     {\cf19 if}(fila == NULL)\par
+84     \{\par
+85         {\cf19 return} NULL;\par
+86     \}\par
+87     Arvore *desenfileirado = *fila;\par
+88     *fila = desenfileirado->next;\par
+89     desenfileirado->next = NULL;\par
+90     {\cf19 return} desenfileirado;\par
+91 \}\par
+92 \par
+102 Arvore* novo_no_arvore_huffman(Arvore *esquerda, Arvore *direita, {\cf18 void} *{\cf18 byte})\par
+103 \{\par
+104     Arvore *raiz = (Arvore*)malloc({\cf17 sizeof}(Arvore));\par
+105     {\cf19 if}(raiz == NULL)\par
+106     \{\par
+107         printf({\cf22 "\\nERRO AO ALOCAR RAIZ\\n"});\par
+108         exit(1);\par
+109     \}\par
+110     raiz->byte = ({\cf18 void}*)malloc(1);\par
+111     {\cf19 if}(raiz->byte == NULL)\par
+112     \{\par
+113         printf({\cf22 "\\nERRO AO ALOCAR BYTE PARA RAIZ\\n"});\par
+114         exit(1);\par
+115     \}\par
+116     memcpy(raiz->byte, {\cf18 byte}, 1);\par
+117     raiz->frequencia = (esquerda->frequencia) + (direita->frequencia);\par
+118     raiz->esquerda = esquerda;\par
+119     raiz->direita = direita;\par
+120 \par
+121     {\cf19 return} raiz;\par
+122 \}\par
+123 \par
+131 {\cf18 void} criar_arvore_huffman(Arvore **fila, Arvore **arvore_huffman)\par
+132 \{\par
+133     uint8_t {\cf18 byte} = {\cf23 '*'};\par
+134     {\cf20 //montando a arvore de huffman}\par
+135     {\cf19 while}((*fila)->next != NULL)\par
+136     \{\par
+137         Arvore *esquerda = desenfileirar(&*fila), *direita = desenfileirar(&*fila), *raiz;\par
+138         raiz = novo_no_arvore_huffman(esquerda, direita, &{\cf18 byte});\par
+139         enfileirar(&*fila, raiz);\par
+140     \}\par
+141 \par
+142     *arvore_huffman = desenfileirar(&*fila);\par
+143     {\cf19 return};\par
+144 \}\par
+145 \par
+152 {\cf18 long} altura_arvore(Arvore *no_arvore)\par
+153 \{\par
+154     {\cf18 int} esquerda, direita;\par
+155     {\cf19 if}(no_arvore == NULL)\par
+156     \{\par
+157         {\cf19 return} -1;\par
+158     \}\par
+159     {\cf19 else}\par
+160     \{\par
+161         esquerda = altura_arvore(no_arvore->esquerda)+1;\par
+162         direita = altura_arvore(no_arvore->direita)+1;\par
+163         {\cf19 if}(esquerda > direita)\par
+164         \{\par
+165             {\cf19 return} esquerda;\par
+166         \}\par
+167         {\cf19 else}\par
+168         \{\par
+169             {\cf19 return} direita;\par
+170         \}\par
+171     \}\par
+172 \}\par
+173 \par
+180 {\cf18 long} tamanho_arvore(Arvore *no_arvore)\par
+181 \{\par
+182     {\cf19 if}(no_arvore == NULL)\par
+183     \{\par
+184         {\cf19 return} 0;\par
+185     \}\par
+186     {\cf19 return} 1 + (no_arvore->esquerda == NULL &&\par
+187                 no_arvore->direita == NULL &&\par
+188                 (*({\cf18 unsigned} {\cf18 char}*)no_arvore->byte == {\cf23 '*'} ||\par
+189                 *({\cf18 unsigned} {\cf18 char}*)no_arvore->byte == {\cf23 '\\\\'}))\par
+190                 +\par
+191                 tamanho_arvore(no_arvore->esquerda)\par
+192                 +\par
+193                 tamanho_arvore(no_arvore->direita);\par
+194 \}\par
+195 \par
+196 {\cf20 //cria o dicionario}\par
+205 uint8_t** criar_dicionario({\cf18 int} tamanho_arvore)\par
+206 \{\par
+207     uint8_t **dicionario = (uint8_t**)malloc({\cf17 sizeof}(uint8_t*) * Max_table);\par
+208     {\cf19 if}(dicionario == NULL)\par
+209     \{\par
+210         printf({\cf22 "\\nERRO AO ALOCAR DICION\'C1RIO\\n"});\par
+211         exit(1);\par
+212     \}\par
+213     {\cf19 for}({\cf18 int} i = 0; i < Max_table; i++)\par
+214     \{\par
+215         dicionario[i] = (uint8_t*)malloc({\cf17 sizeof}(uint8_t) * tamanho_arvore);\par
+216         {\cf19 if}(dicionario[i] == NULL)\par
+217         \{\par
+218             printf({\cf22 "\\nERRO AO ALOCAR RESTO DO DICION\'C1RIO\\n"});\par
+219             exit(1);\par
+220         \}\par
+221         dicionario[i][0] = {\cf23 '\\0'};\par
+222     \}\par
+223 \par
+224     {\cf19 return} dicionario;\par
+225 \}\par
+226 \par
+237 {\cf18 void} gerar_codigos(uint8_t **dicionario, Arvore *raiz, {\cf18 long} profundidade, uint8_t *aux)\par
+238 \{\par
+239     {\cf19 if}(raiz->esquerda == NULL && raiz->direita == NULL)\par
+240     \{\par
+241         uint8_t {\cf18 byte} = *(uint8_t*)raiz->byte;\par
+242         {\cf19 for}({\cf18 int} i = 0; i < profundidade; i++)\par
+243         \{\par
+244             dicionario[byte][i] = aux[i];\par
+245         \}\par
+246         dicionario[byte][profundidade] = {\cf23 '\\0'};\par
+247         {\cf19 return};\par
+248     \}\par
+249 \par
+250     aux[profundidade] = {\cf23 '0'};\par
+251     gerar_codigos(dicionario, raiz->esquerda, profundidade + 1, aux);\par
+252 \par
+253     aux[profundidade] = {\cf23 '1'};\par
+254     gerar_codigos(dicionario, raiz->direita, profundidade + 1, aux);\par
+255 \}\par
+256 \par
+267 {\cf18 int} lixo(uint8_t **dicionario, {\cf18 long} *frequencia)\{\par
+268     {\cf18 long} bits_antes = 0;\par
+269     {\cf18 long} bits_depois = 0;\par
+270     {\cf19 for}({\cf18 int} i = 0; i < Max_table; i++)\par
+271     \{\par
+272         {\cf19 if} (frequencia[i] != 0)\par
+273         \{\par
+274             bits_antes += frequencia[i] * 8;\par
+275             bits_depois += frequencia[i] * strlen(dicionario[i]);\par
+276         \}\par
+277     \}\par
+278 \par
+279     printf({\cf22 "\\nbits antes: %ld || bits depois: %ld\\n"}, bits_antes, bits_depois);\par
+280 \par
+281     {\cf19 return} (bits_antes - bits_depois) % 8;\par
+282 \}\par
+283 \par
+293 {\cf18 void} escrever_arvore_no_cabecalho(FILE *arquivo_comprimido, Arvore *arvore)\par
+294 \{\par
+295     {\cf19 if}(arvore == NULL)\par
+296     \{\par
+297         {\cf19 return};\par
+298     \}\par
+299     {\cf19 if}(arvore->esquerda == NULL && arvore->direita == NULL && (*(uint8_t*)arvore->byte == {\cf23 '*'} || *(uint8_t*)arvore->byte == {\cf23 '\\\\'}))\par
+300     \{\par
+301         uint8_t scape = (uint8_t){\cf23 '\\\\'};\par
+302         fwrite(&scape, {\cf17 sizeof}(uint8_t), 1, arquivo_comprimido);\par
+303     \}\par
+304     uint8_t {\cf18 byte} = *(uint8_t*)arvore->byte;\par
+305     fwrite(&{\cf18 byte}, {\cf17 sizeof}(uint8_t), 1, arquivo_comprimido);\par
+306     escrever_arvore_no_cabecalho(arquivo_comprimido, arvore->esquerda);\par
+307     escrever_arvore_no_cabecalho(arquivo_comprimido, arvore->direita);\par
+308 \}\par
+309 \par
+319 {\cf18 void} escrever_cabecalho_no_arquivo(FILE *arquivo_comprimido, {\cf18 int} bits_de_lixo, {\cf18 int} tamanho_arvore, Arvore *arvore)\par
+320 \{\par
+321     {\cf20 //setando os bits}\par
+322     uint16_t tamanho_lixo_e_arvore = 0, mascara;\par
+323     {\cf20 //guarda o lixo no vetor para ser gravado no arquivo}\par
+324     tamanho_lixo_e_arvore |= bits_de_lixo << 13;\par
+325     {\cf20 //gravando o tamanho da arvore no vetor}\par
+326     {\cf19 for}({\cf18 int} i = 0; i < 13; i++)\par
+327     \{\par
+328         mascara = 1 << i;\par
+329         {\cf19 if}(tamanho_arvore & mascara)\par
+330         \{\par
+331             tamanho_lixo_e_arvore |= 1 << i;\par
+332         \}\par
+333         {\cf19 else}\par
+334         \{\par
+335             tamanho_lixo_e_arvore |= 0 << i;\par
+336         \}\par
+337     \}\par
+338     {\cf20 //Como a ordem em que a fwrite escreve depende da arquitetura do processador, ou seja, little-endian ou big-endian precisamos garantir que}\par
+339     {\cf20 //os dois bytes para lixo e para tamanho da arvore sejam escritos corretamente, para isso usamos a funcao htons da biblioteca arpa/inet.h}\par
+340     tamanho_lixo_e_arvore = htons(tamanho_lixo_e_arvore);\par
+341     {\cf20 //gravando o lixo e o tamanho da arvore}\par
+342     fwrite(&tamanho_lixo_e_arvore, 1, 2, arquivo_comprimido);\par
+343     {\cf20 //gravando a arvore}\par
+344     escrever_arvore_no_cabecalho(arquivo_comprimido, arvore);\par
+345 \}\par
+346 \par
+359 {\cf18 void} escrever_bits_compactados(FILE *arquivo_comprimido, uint8_t *dados, uint8_t **dicionario, {\cf18 long} tamanho_arquivo)\par
+360 \{\par
+361     {\cf18 long} indice_bit = 7;\par
+362     uint8_t {\cf18 byte} = 0;\par
+363     {\cf19 for}({\cf18 int} i = 0; i < tamanho_arquivo; i++)\par
+364     \{\par
+365         {\cf19 for}({\cf18 int} j = 0; dicionario[dados[i]][j] != {\cf23 '\\0'}; j++)\par
+366         \{\par
+367             {\cf19 if}(dicionario[dados[i]][j] == {\cf23 '1'})\par
+368             \{\par
+369                 {\cf18 byte} |= 1 << indice_bit;\par
+370             \}\par
+371             indice_bit--;\par
+372             {\cf19 if}(indice_bit < 0)\par
+373             \{\par
+374                 fwrite(&{\cf18 byte}, {\cf17 sizeof}({\cf18 unsigned} {\cf18 char}), 1, arquivo_comprimido);\par
+375                 indice_bit = 7;\par
+376                 {\cf18 byte} = 0;\par
+377             \}\par
+378         \}\par
+379     \}\par
+380     {\cf19 if}(indice_bit != 7)\par
+381     \{\par
+382         fwrite(&{\cf18 byte}, {\cf17 sizeof}({\cf18 unsigned} {\cf18 char}), 1, arquivo_comprimido);\par
+383     \}\par
+384 \par
+385     {\cf19 return};\par
+386 \}\par
+387 \par
+394 {\cf18 void} free_dicionario(uint8_t **dicionario)\par
+395 \{\par
+396     {\cf19 for}({\cf18 int} i = 0; i < 256; i++)\par
+397     \{\par
+398         free(dicionario[i]);\par
+399     \}\par
+400     free(dicionario);\par
+401     {\cf19 return};\par
+402 \}\par
+403 \par
+409 {\cf18 void} free_arvore_huffman(Arvore *raiz)\par
+410 \{\par
+411     {\cf19 if}(raiz == NULL)\par
+412     \{\par
+413         {\cf19 return};\par
+414     \}\par
+415     free_arvore_huffman(raiz->esquerda);\par
+416     free_arvore_huffman(raiz->direita);\par
+417     free(raiz->byte);\par
+418     free(raiz);\par
+419     {\cf19 return};\par
+420 \}\par
+421 \par
+428 {\cf18 void} comprimir({\cf18 char} *nome_arquivo)\par
+429 \{\par
+430     {\cf20 //cria a fila de frequ\'EAncias}\par
+431     Arvore *fila = NULL;\par
+432     {\cf20 //criando arvore de huffman}\par
+433     Arvore *arvore_huffman = NULL;\par
+434     {\cf20 //criando a variavel do dicionario}\par
+435     uint8_t **dicionario; \par
+436     {\cf20 //criando a variavel auxiliar para preencher o dicionario}\par
+437     uint8_t *aux;\par
+438 \par
+439     {\cf20 //abrindo o arquivo}\par
+440     FILE *arquivo = fopen(nome_arquivo, {\cf22 "rb"}), *arquivo_comprimido;\par
+441     {\cf19 if}(arquivo == NULL)\par
+442     \{\par
+443         printf({\cf22 "\\nArquivo n\'E3o encontrado!\\n"});\par
+444         exit(1);\par
+445     \}\par
+446 \par
+447     {\cf20 //criando a variavel que vai manter todos os bytes}\par
+448     uint8_t *dados;\par
+449     {\cf20 //criando a tabela de frequencia}\par
+450     {\cf18 long} frequencia[Max_table], i;\par
+451 \par
+452     {\cf20 //lendo os bytes do arquivo}\par
+453     {\cf20 //procura o fim do arquivo}\par
+454     fseek(arquivo, 0, SEEK_END);\par
+455     {\cf20 //pega o tamanho do arquivo}\par
+456     {\cf18 long} tamanho_arquivo = ftell(arquivo);\par
+457     {\cf20 //volta o ponteiro para o inicio do arquivo}\par
+458     fseek(arquivo, 0, SEEK_SET);\par
+459     {\cf20 //aloca memoria para a variavel dados que usaremos para pegar todos os bytes do arquivo}\par
+460     dados = malloc(tamanho_arquivo);\par
+461     {\cf19 if}(dados == NULL)\par
+462     \{\par
+463         printf({\cf22 "\\nN\'E3o foi poss\'EDvel alocar mem\'F3ria para o vetor do arquivo\\n"});\par
+464         exit(1);\par
+465     \}\par
+466     {\cf20 //setando os bytes para 0}\par
+467     memset(dados, 0, tamanho_arquivo);\par
+468     {\cf20 //pegando todos os bytes do arquivo}\par
+469     fread(dados, 1, tamanho_arquivo, arquivo);\par
+470     {\cf20 //fechando o arquivo}\par
+471     fclose(arquivo);\par
+472 \par
+473     {\cf20 //iniciando as frequencias como 0}\par
+474     memset(frequencia, 0, Max_table*{\cf17 sizeof}({\cf18 long}));\par
+475 \par
+476     {\cf20 //obtendo frequencias dos bytes}\par
+477     {\cf19 for}(i = 0; i < tamanho_arquivo; i++)\par
+478     \{\par
+479         {\cf20 //pegando a frequencia de cada byte}\par
+480         frequencia[dados[i]]++;\par
+481     \}\par
+482     \par
+483     {\cf20 //montando a lista de frequ\'EAncia}\par
+484     {\cf19 for}(i = 0; i < Max_table; i++)\par
+485     \{\par
+486         {\cf20 //avaliando se a frequencia e igual a 0 para nao pegarmos o byte que nao tem no arquivo}\par
+487         {\cf19 if}(frequencia[i] != 0)\par
+488         \{\par
+489             {\cf20 //fazendo o cast da variavel i para do tipo unsigned char}\par
+490             (uint8_t)i;\par
+491             {\cf20 //insere na fila de frequencia de maneira organizada}\par
+492             enfileirar(&fila, novo_no_arvore(&i, frequencia[i]));\par
+493         \}\par
+494     \}\par
+495 \par
+496     {\cf20 //criando a arvore de huffman}\par
+497     criar_arvore_huffman(&fila, &arvore_huffman);\par
+498 \par
+499     {\cf20 //pegando a altura da arvore}\par
+500     {\cf18 long} altura_da_arvore = altura_arvore(arvore_huffman);\par
+501     {\cf20 //pegando o tamanho da arvore}\par
+502     {\cf18 long} tamanho_da_arvore = tamanho_arvore(arvore_huffman);\par
+503 \par
+504     \par
+505     {\cf20 //criando o dicion\'E1rio}\par
+506     dicionario = criar_dicionario(altura_da_arvore + 1);\par
+507 \par
+508     {\cf20 //criando o vetor auxiliar para preencher o dicionario}\par
+509     aux = (uint8_t*)malloc({\cf17 sizeof}(uint8_t) * (altura_da_arvore + 1));\par
+510     {\cf19 if}(aux == NULL)\par
+511     \{\par
+512         printf({\cf22 "\\nN\'E3o foi poss\'EDvel alocar mem\'F3ria para o array auxiliar\\n"});\par
+513         exit(1);\par
+514     \}\par
+515     \par
+516     {\cf20 //preenchendo o dicionario}\par
+517     gerar_codigos(dicionario, arvore_huffman, 0, aux);\par
+518     \par
+519     {\cf20 //calculo do lixo de bits}\par
+520     {\cf18 int} bits_de_lixo = lixo(dicionario, frequencia);\par
+521     {\cf20 //mudanca do nome, exemplo: arquivo.txt vira arquivo.txt.huff}\par
+522     {\cf19 for}(i = 0; i != 106; i++)\par
+523     \{\par
+524         {\cf19 if}(nome_arquivo[i] == {\cf23 '\\0'} && i + 6 <= 106)\par
+525         \{\par
+526             nome_arquivo[i] = {\cf23 '.'};\par
+527             nome_arquivo[i + 1] = {\cf23 'h'};\par
+528             nome_arquivo[i + 2] = {\cf23 'u'};\par
+529             nome_arquivo[i + 3] = {\cf23 'f'};\par
+530             nome_arquivo[i + 4] = {\cf23 'f'};\par
+531             nome_arquivo[i + 5] = {\cf23 '\\0'};\par
+532             {\cf19 break};\par
+533         \}\par
+534     \}\par
+535 \par
+536     {\cf20 //escrevendo o arquivo comprimido}\par
+537     arquivo_comprimido = fopen(nome_arquivo,{\cf22 "wb"});\par
+538     {\cf19 if}(arquivo_comprimido == NULL)\par
+539     \{\par
+540         printf({\cf22 "\\nN\'E3o foi poss\'EDvel abrir o arquivo de sa\'EDda\\n"});\par
+541         exit(1);\par
+542     \}\par
+543     {\cf20 //escrevendo o cabecalho}\par
+544     escrever_cabecalho_no_arquivo(arquivo_comprimido, bits_de_lixo, tamanho_da_arvore, arvore_huffman);\par
+545     {\cf20 //escrevendo os bytes compactados}\par
+546     escrever_bits_compactados(arquivo_comprimido, dados, dicionario, tamanho_arquivo);\par
+547     {\cf20 //fechando o arquivo}\par
+548     fclose(arquivo_comprimido);\par
+549 \par
+550     printf({\cf22 "\\nArquivo comprimido com sucesso!!!\\n"});\par
+551 \par
+552     {\cf20 //libera a memoria do dicionario}\par
+553     free_dicionario(dicionario);\par
+554     {\cf20 //libera a memoria da arvore}\par
+555     free_arvore_huffman(arvore_huffman);\par
+556     {\cf20 //libera a memoria do vetor auxiliar}\par
+557     free(aux);\par
+558     {\cf20 //libera a memoria alocada para o vetor dados}\par
+559     free(dados);\par
+560     aux = NULL;\par
+561     dicionario = NULL;\par
+562     arvore_huffman = NULL;\par
+563     dados = NULL;\par
+564     \par
+565     {\cf19 return};\par
+566 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo codes/huffman/descomprimir.h\par \pard\plain 
+{\tc\tcl2 \v codes/huffman/descomprimir.h}
+{\xe \v codes/huffman/descomprimir.h}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "structs_huffman.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Componentes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+struct {\b arvore_descomprimida}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b esta_setado} (uint8_t c, int i)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b bits_de_lixo_e_tamanho_da_arvore} (int *{\b lixo}, long *{\b tamanho_arvore}, uint8_t *dados)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Em resumo, esta fun\'E7\'E3o extrai os bits de lixo e o tamanho da \'E1rvore de Huffman do cabe\'E7alho de um arquivo comprimido e armazena essas informa\'E7\'F5es nas vari\'E1veis *lixo e *tamanho_arvore para uso posterior no processo de descompacta\'E7\'E3o. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore_D} * {\b novo_no_arvore_D} (void *i)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 respons\'E1vel por criar um novo n\'F3 para nossa \'E1rvore descompactada. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Arvore_D} * {\b montar_arvore_huffman_D} ({\b Arvore_D} *raiz, uint8_t *dados, int *i, long {\b tamanho_arvore})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+esta fun\'E7\'E3o \'E9 respons\'E1vel por reconstruir a \'E1rvore de Huffman a partir dos dados do cabe\'E7alho de um arquivo comprimido. A \'E1rvore resultante \'E9 usada na descompacta\'E7\'E3o para mapear os c\'F3digos bin\'E1rios de volta para os caracteres originais. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b escrever_arquivo} (FILE *arquivo_descomprimido, uint8_t *dados, long tamanho_arquivo, long i, {\b Arvore_D} *{\b arvore}, int {\b lixo})\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 respons\'E1vel por descompactar os dados compactados usando a \'E1rvore de Huffman e escrever os dados descompactados no arquivo de sa\'EDda. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b free_arvore_huffman_D} ({\b Arvore_D} *raiz)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 usada para liberar a mem\'F3ria alocada para a \'E1rvore de Huffman ap\'F3s o processo de descompacta\'E7\'E3o ser conclu\'EDdo. }{
+}\par
+}\par}
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b descomprimir} (char *nome_arquivo)\par
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o descomprime um arquivo no formato Huffman, criando a \'E1rvore de Huffman a partir dos dados e escrevendo o arquivo descompactado no diret\'F3rio do nosso programa. }{
+}\par
+}\par}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v bits_de_lixo_e_tamanho_da_arvore\:descomprimir.h}
+{\xe \v descomprimir.h\:bits_de_lixo_e_tamanho_da_arvore}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void bits_de_lixo_e_tamanho_da_arvore (int *  {\i lixo}, long *  {\i tamanho_arvore}, uint8_t *  {\i dados})}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Em resumo, esta fun\'E7\'E3o extrai os bits de lixo e o tamanho da \'E1rvore de Huffman do cabe\'E7alho de um arquivo comprimido e armazena essas informa\'E7\'F5es nas vari\'E1veis *lixo e *tamanho_arvore para uso posterior no processo de descompacta\'E7\'E3o. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i lixo} \cell }{Um ponteiro para um inteiro que ser\'E1 usado para armazenar o n\'FAmero de bits de lixo no final do arquivo. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tamanho_arvore} \cell }{Um ponteiro para um long que ser\'E1 usado para armazenar o tamanho da \'E1rvore de Huffman. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dados} \cell }{Um ponteiro para um array de bytes que cont\'E9m o cabe\'E7alho do arquivo comprimido. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 35 \{\par
+36     {\cf18 int} i, j, k, bit;\par
+37     {\cf18 unsigned} {\cf18 char} mascara;\par
+38     {\cf20 //primeiro pegamos os bits referente ao lixo}\par
+39     {\cf19 for}(i = 7, j = 0; i >= 5; i--, j++)\par
+40     \{\par
+41         bit = esta_setado(dados[0], i); \par
+42         {\cf19 if}(bit)\par
+43         \{\par
+44             *lixo |= 1 << j;\par
+45         \}\par
+46     \}\par
+47     \par
+48     {\cf20 //pegando os bits do tamanho da arvore}\par
+49     {\cf19 for}(i = 4, j = 12, k = 0; j >= 0; j--)\par
+50     \{\par
+51         bit = esta_setado(dados[k], i); \par
+52         {\cf19 if}(bit)\par
+53         \{\par
+54             *tamanho_arvore |= 1 << j;\par
+55         \}\par
+56         i--;\par
+57         {\cf19 if}(i < 0)\par
+58         \{\par
+59             i = 7;\par
+60             k++;\par
+61         \}\par
+62     \}\par
+63 \par
+64     {\cf19 return};\par
+65 \}\par
+}
+}
+{\xe \v descomprimir\:descomprimir.h}
+{\xe \v descomprimir.h\:descomprimir}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void descomprimir (char *  {\i nome_arquivo})}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o descomprime um arquivo no formato Huffman, criando a \'E1rvore de Huffman a partir dos dados e escrevendo o arquivo descompactado no diret\'F3rio do nosso programa. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i nome_arquivo} \cell }{Uma string contendo o nome do arquivo que ser\'E1 descomprimido. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 209 \{\par
+210     FILE *arquivo_comprimido, *arquivo_descomprimido;\par
+211     Arvore_D *arvore_huffman_descomprimida = NULL;\par
+212     uint8_t *dados;\par
+213     {\cf18 int} bits_de_lixo = 0, i; \par
+214     {\cf18 long} tamanho_arvore = 0;\par
+215     arquivo_comprimido = fopen(nome_arquivo, {\cf22 "rb"});\par
+216     {\cf19 if}(arquivo_comprimido == NULL)\par
+217     \{\par
+218         printf({\cf22 "\\nN\'E3o foi poss\'EDvel encontrar o arquivo\\n"});\par
+219         exit(1);\par
+220     \}\par
+221     {\cf20 //buscando o final do arquivo}\par
+222     fseek(arquivo_comprimido, 0, SEEK_END);\par
+223     {\cf20 //pegando o tamanho do arquivo}\par
+224     {\cf18 long} tamanho_arquivo = ftell(arquivo_comprimido);\par
+225     {\cf20 //voltando para o inicio do arquivo}\par
+226     fseek(arquivo_comprimido, 0, SEEK_SET);\par
+227     {\cf20 //alocando memoria para a variavel dados}\par
+228     dados = malloc(tamanho_arquivo);\par
+229     {\cf19 if}(dados == NULL)\par
+230     \{\par
+231         printf({\cf22 "\\nN\'E3o foi poss\'EDvel alocar memoria para vetor do arquivo\\n"});\par
+232         exit(1);\par
+233     \}\par
+234     {\cf20 //setando 0 em todas as posicos de dados}\par
+235     memset(dados, 0, tamanho_arquivo);\par
+236     {\cf20 //pegando todos os bytes do arquivo}\par
+237     fread(dados, 1, tamanho_arquivo, arquivo_comprimido);\par
+238     {\cf20 //fechando o arquivo}\par
+239     fclose(arquivo_comprimido);\par
+240 \par
+241     {\cf20 //pegando a quantidade de bits de lixo que temos e o tamanho da arvore}\par
+242     bits_de_lixo_e_tamanho_da_arvore(&bits_de_lixo, &tamanho_arvore, dados);\par
+243     {\cf20 //montando a arvore de huffman}\par
+244     i = 2;\par
+245     arvore_huffman_descomprimida = montar_arvore_huffman_D(arvore_huffman_descomprimida, dados, &i, tamanho_arvore + 2);\par
+246 \par
+247     {\cf20 //escrevendo arquivo descompactado}\par
+248     {\cf18 int} tamanho_nome_arquivo = strlen(nome_arquivo);\par
+249     nome_arquivo[tamanho_nome_arquivo - 5] = {\cf23 '\\0'};\par
+250     arquivo_descomprimido = fopen(nome_arquivo, {\cf22 "wb"});\par
+251     {\cf19 if}(arquivo_descomprimido == NULL)\par
+252     \{\par
+253         printf({\cf22 "\\nN\'E3o foi poss\'EDvel criar um arquivo de sa\'EDda\\n"});\par
+254         exit(1);\par
+255     \}\par
+256     escrever_arquivo(arquivo_descomprimido, dados, tamanho_arquivo, i, arvore_huffman_descomprimida, bits_de_lixo);\par
+257 \par
+258     {\cf20 //liberando o espa\'E7o}\par
+259     free(dados);\par
+260     free_arvore_huffman_D(arvore_huffman_descomprimida);\par
+261     arvore_huffman_descomprimida = NULL;\par
+262     dados = NULL;\par
+263 \}\par
+}
+}
+{\xe \v escrever_arquivo\:descomprimir.h}
+{\xe \v descomprimir.h\:escrever_arquivo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void escrever_arquivo (FILE *  {\i arquivo_descomprimido}, uint8_t *  {\i dados}, long  {\i tamanho_arquivo}, long  {\i i}, {\b Arvore_D} *  {\i arvore}, int  {\i lixo})}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 respons\'E1vel por descompactar os dados compactados usando a \'E1rvore de Huffman e escrever os dados descompactados no arquivo de sa\'EDda. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arquivo_descomprimido} \cell }{Um ponteiro para o arquivo de sa\'EDda onde os dados descompactados ser\'E3o escritos. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dados} \cell }{Um ponteiro para um array de bytes que cont\'E9m os dados compactados a serem descompactados. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tamanho_arquivo} \cell }{O tamanho total do arquivo compactado em bytes. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i i} \cell }{Um \'EDndice que representa a posi\'E7\'E3o atual nos dados compactados. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i arvore} \cell }{A raiz da \'E1rvore de Huffman que foi previamente montada a partir do cabe\'E7alho do arquivo compactado. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i lixo} \cell }{O n\'FAmero de bits de lixo no final do arquivo compactado. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 152 \{\par
+153     Arvore_D* aux = arvore;\par
+154 \par
+155     {\cf19 while}(i < tamanho_arquivo)\par
+156     \{\par
+157         uint8_t {\cf18 byte} = dados[i];\par
+158 \par
+159         {\cf19 for}({\cf18 int} j = 7; j >= 0; j--)\par
+160         \{\par
+161             {\cf19 if}(i == tamanho_arquivo - 1 && j < lixo) {\cf19 return};\par
+162 \par
+163             {\cf19 if} (esta_setado({\cf18 byte}, j))\par
+164             \{\par
+165                 aux = aux->direita;\par
+166             \}\par
+167             {\cf19 else}\par
+168             \{\par
+169                 aux = aux->esquerda;\par
+170             \}\par
+171 \par
+172             {\cf19 if}(aux->direita == NULL && aux->esquerda == NULL)\par
+173             \{\par
+174                 fwrite(&(*(uint8_t *)aux->byte), {\cf17 sizeof}(uint8_t), 1, arquivo_descomprimido);\par
+175                 aux = arvore;\par
+176             \}\par
+177         \}\par
+178         i++;\par
+179     \}\par
+180 \}\par
+}
+}
+{\xe \v esta_setado\:descomprimir.h}
+{\xe \v descomprimir.h\:esta_setado}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int esta_setado (uint8_t  {\i c}, int  {\i i})}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i c} \cell }{\'C9 um valor de 8 bits (byte) em que voc\'EA deseja verificar se um bit espec\'EDfico est\'E1 definido ou n\'E3o. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i i} \cell }{\'C9 o \'EDndice do bit que voc\'EA deseja verificar, variando de 0 a 7, onde 0 representa o bit menos significativo e 7 representa o bit mais significativo. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+O resultado da opera\'E7\'E3o de AND como um valor 0 ou 1, indicando se o bit estava definido ou n\'E3o. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 19 \{\par
+20     {\cf18 unsigned} {\cf18 char} mascara = 1 << i;\par
+21     {\cf19 return} mascara & c;\par
+22 \}\par
+}
+}
+{\xe \v free_arvore_huffman_D\:descomprimir.h}
+{\xe \v descomprimir.h\:free_arvore_huffman_D}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void free_arvore_huffman_D ({\b Arvore_D} *  {\i raiz})}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Esta fun\'E7\'E3o \'E9 usada para liberar a mem\'F3ria alocada para a \'E1rvore de Huffman ap\'F3s o processo de descompacta\'E7\'E3o ser conclu\'EDdo. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i raiz} \cell }{Um ponteiro para a raiz da \'E1rvore de Huffman a ser liberada. \cell }
+{\row }
+}
+}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 189 \{\par
+190     {\cf19 if}(raiz == NULL)\par
+191     \{\par
+192         {\cf19 return};\par
+193     \}\par
+194     free_arvore_huffman_D(raiz->esquerda);\par
+195     free_arvore_huffman_D(raiz->direita);\par
+196     free(raiz->byte);\par
+197     free(raiz);\par
+198 \par
+199     {\cf19 return};\par
+200 \}\par
+}
+}
+{\xe \v montar_arvore_huffman_D\:descomprimir.h}
+{\xe \v descomprimir.h\:montar_arvore_huffman_D}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore_D} * montar_arvore_huffman_D ({\b Arvore_D} *  {\i raiz}, uint8_t *  {\i dados}, int *  {\i i}, long  {\i tamanho_arvore})}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+esta fun\'E7\'E3o \'E9 respons\'E1vel por reconstruir a \'E1rvore de Huffman a partir dos dados do cabe\'E7alho de um arquivo comprimido. A \'E1rvore resultante \'E9 usada na descompacta\'E7\'E3o para mapear os c\'F3digos bin\'E1rios de volta para os caracteres originais. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i raiz} \cell }{Um ponteiro para um n\'F3 da \'E1rvore de Huffman que representa a raiz da \'E1rvore. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i dados} \cell }{Um ponteiro para um array de bytes que cont\'E9m os dados do cabe\'E7alho do arquivo comprimido. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i i} \cell }{Um ponteiro para um inteiro que representa a posi\'E7\'E3o atual nos dados do cabe\'E7alho. \cell }
+{\row }
+\trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i tamanho_arvore} \cell }{Um longo que representa o tamanho da \'E1rvore de Huffman nos dados do cabe\'E7alho. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+A nossa \'E1rvore de Huffman usada para a descompacta\'E7\'E3o. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 106 \{\par
+107     {\cf19 if}(*i == tamanho_arvore)\par
+108     \{\par
+109         {\cf19 return} NULL;\par
+110     \}\par
+111     {\cf19 else}\par
+112     \{\par
+113         {\cf19 if}(dados[*i] == {\cf23 '\\\\'})\par
+114         \{\par
+115             (*i)++;\par
+116             raiz = novo_no_arvore_D(&dados[*i]);\par
+117             (*i)++;\par
+118             {\cf19 return} raiz;\par
+119         \}\par
+120         {\cf19 else} {\cf19 if}(dados[*i] == {\cf23 '*'})\par
+121         \{\par
+122             raiz = novo_no_arvore_D(&dados[*i]);\par
+123             (*i)++;\par
+124             raiz->esquerda = montar_arvore_huffman_D(raiz->esquerda, dados, i, tamanho_arvore);\par
+125             raiz->direita = montar_arvore_huffman_D(raiz->direita, dados, i, tamanho_arvore);\par
+126         \}\par
+127         {\cf19 else}\par
+128         \{\par
+129             raiz = novo_no_arvore_D(&dados[*i]);\par
+130             (*i)++;\par
+131             {\cf19 return} raiz;\par
+132         \}\par
+133     \}\par
+134 \par
+135     {\cf19 return} raiz;\par
+136 \}\par
+}
+}
+{\xe \v novo_no_arvore_D\:descomprimir.h}
+{\xe \v descomprimir.h\:novo_no_arvore_D}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Arvore_D} * novo_no_arvore_D (void *  {\i i})}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Essa fun\'E7\'E3o \'E9 respons\'E1vel por criar um novo n\'F3 para nossa \'E1rvore descompactada. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Par\'E2metros\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{{\i i} \cell }{O byte que deve ser inserido no nosso novo n\'F3. \cell }
+{\row }
+}
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Retorna\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+O nosso novo n\'F3. \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 74 \{\par
+75     Arvore_D *novo_no = (Arvore_D*)malloc({\cf17 sizeof}(Arvore_D));\par
+76     {\cf19 if}(novo_no == NULL)\par
+77     \{\par
+78         printf({\cf22 "\\nErro ao alocar n\'F3 da \'E1rvore\\n"});\par
+79         exit(1);\par
+80     \}\par
+81     novo_no->byte = ({\cf18 void}*)malloc(1);\par
+82     {\cf19 if}(novo_no->byte == NULL)\par
+83     \{\par
+84         printf({\cf22 "\\nErro ao alocar byte\\n"});\par
+85         exit(1);\par
+86     \}\par
+87     memcpy(novo_no->byte, i, 1);\par
+88     novo_no->esquerda = NULL;\par
+89     novo_no->direita = NULL;\par
+90 \par
+91     {\cf19 return} novo_no;\par
+92 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+descomprimir.h\par \pard\plain 
+{\tc\tcl2 \v codes/huffman/descomprimir.h}
+{\xe \v codes/huffman/descomprimir.h}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #include "structs_huffman.h"}\par
+2 \par
+3 {\cf20 //struct para arvore de descompactacao}\par
+4 {\cf17 struct }arvore_descomprimida\par
+5 \{\par
+6     {\cf18 void} *byte;\par
+7     Arvore_D *esquerda, *direita;\par
+8 \};\par
+9 \par
+18 {\cf18 int} esta_setado(uint8_t c, {\cf18 int} i)\par
+19 \{\par
+20     {\cf18 unsigned} {\cf18 char} mascara = 1 << i;\par
+21     {\cf19 return} mascara & c;\par
+22 \}\par
+23 \par
+34 {\cf18 void} bits_de_lixo_e_tamanho_da_arvore({\cf18 int} *lixo, {\cf18 long} *tamanho_arvore, uint8_t *dados)\par
+35 \{\par
+36     {\cf18 int} i, j, k, bit;\par
+37     {\cf18 unsigned} {\cf18 char} mascara;\par
+38     {\cf20 //primeiro pegamos os bits referente ao lixo}\par
+39     {\cf19 for}(i = 7, j = 0; i >= 5; i--, j++)\par
+40     \{\par
+41         bit = esta_setado(dados[0], i); \par
+42         {\cf19 if}(bit)\par
+43         \{\par
+44             *lixo |= 1 << j;\par
+45         \}\par
+46     \}\par
+47     \par
+48     {\cf20 //pegando os bits do tamanho da arvore}\par
+49     {\cf19 for}(i = 4, j = 12, k = 0; j >= 0; j--)\par
+50     \{\par
+51         bit = esta_setado(dados[k], i); \par
+52         {\cf19 if}(bit)\par
+53         \{\par
+54             *tamanho_arvore |= 1 << j;\par
+55         \}\par
+56         i--;\par
+57         {\cf19 if}(i < 0)\par
+58         \{\par
+59             i = 7;\par
+60             k++;\par
+61         \}\par
+62     \}\par
+63 \par
+64     {\cf19 return};\par
+65 \}\par
+66 \par
+73 Arvore_D* novo_no_arvore_D({\cf18 void} *i)\par
+74 \{\par
+75     Arvore_D *novo_no = (Arvore_D*)malloc({\cf17 sizeof}(Arvore_D));\par
+76     {\cf19 if}(novo_no == NULL)\par
+77     \{\par
+78         printf({\cf22 "\\nErro ao alocar n\'F3 da \'E1rvore\\n"});\par
+79         exit(1);\par
+80     \}\par
+81     novo_no->byte = ({\cf18 void}*)malloc(1);\par
+82     {\cf19 if}(novo_no->byte == NULL)\par
+83     \{\par
+84         printf({\cf22 "\\nErro ao alocar byte\\n"});\par
+85         exit(1);\par
+86     \}\par
+87     memcpy(novo_no->byte, i, 1);\par
+88     novo_no->esquerda = NULL;\par
+89     novo_no->direita = NULL;\par
+90 \par
+91     {\cf19 return} novo_no;\par
+92 \}\par
+93 \par
+105 Arvore_D* montar_arvore_huffman_D(Arvore_D *raiz, uint8_t *dados, {\cf18 int} *i, {\cf18 long} tamanho_arvore)\par
+106 \{\par
+107     {\cf19 if}(*i == tamanho_arvore)\par
+108     \{\par
+109         {\cf19 return} NULL;\par
+110     \}\par
+111     {\cf19 else}\par
+112     \{\par
+113         {\cf19 if}(dados[*i] == {\cf23 '\\\\'})\par
+114         \{\par
+115             (*i)++;\par
+116             raiz = novo_no_arvore_D(&dados[*i]);\par
+117             (*i)++;\par
+118             {\cf19 return} raiz;\par
+119         \}\par
+120         {\cf19 else} {\cf19 if}(dados[*i] == {\cf23 '*'})\par
+121         \{\par
+122             raiz = novo_no_arvore_D(&dados[*i]);\par
+123             (*i)++;\par
+124             raiz->esquerda = montar_arvore_huffman_D(raiz->esquerda, dados, i, tamanho_arvore);\par
+125             raiz->direita = montar_arvore_huffman_D(raiz->direita, dados, i, tamanho_arvore);\par
+126         \}\par
+127         {\cf19 else}\par
+128         \{\par
+129             raiz = novo_no_arvore_D(&dados[*i]);\par
+130             (*i)++;\par
+131             {\cf19 return} raiz;\par
+132         \}\par
+133     \}\par
+134 \par
+135     {\cf19 return} raiz;\par
+136 \}\par
+137 \par
+151 {\cf18 void} escrever_arquivo(FILE* arquivo_descomprimido, uint8_t* dados, {\cf18 long} tamanho_arquivo, {\cf18 long} i, Arvore_D* arvore, {\cf18 int} lixo)\par
+152 \{\par
+153     Arvore_D* aux = arvore;\par
+154 \par
+155     {\cf19 while}(i < tamanho_arquivo)\par
+156     \{\par
+157         uint8_t {\cf18 byte} = dados[i];\par
+158 \par
+159         {\cf19 for}({\cf18 int} j = 7; j >= 0; j--)\par
+160         \{\par
+161             {\cf19 if}(i == tamanho_arquivo - 1 && j < lixo) {\cf19 return};\par
+162 \par
+163             {\cf19 if} (esta_setado({\cf18 byte}, j))\par
+164             \{\par
+165                 aux = aux->direita;\par
+166             \}\par
+167             {\cf19 else}\par
+168             \{\par
+169                 aux = aux->esquerda;\par
+170             \}\par
+171 \par
+172             {\cf19 if}(aux->direita == NULL && aux->esquerda == NULL)\par
+173             \{\par
+174                 fwrite(&(*(uint8_t *)aux->byte), {\cf17 sizeof}(uint8_t), 1, arquivo_descomprimido);\par
+175                 aux = arvore;\par
+176             \}\par
+177         \}\par
+178         i++;\par
+179     \}\par
+180 \}\par
+181 \par
+188 {\cf18 void} free_arvore_huffman_D(Arvore_D *raiz)\par
+189 \{\par
+190     {\cf19 if}(raiz == NULL)\par
+191     \{\par
+192         {\cf19 return};\par
+193     \}\par
+194     free_arvore_huffman_D(raiz->esquerda);\par
+195     free_arvore_huffman_D(raiz->direita);\par
+196     free(raiz->byte);\par
+197     free(raiz);\par
+198 \par
+199     {\cf19 return};\par
+200 \}\par
+201 \par
+208 {\cf18 void} descomprimir({\cf18 char} *nome_arquivo)\par
+209 \{\par
+210     FILE *arquivo_comprimido, *arquivo_descomprimido;\par
+211     Arvore_D *arvore_huffman_descomprimida = NULL;\par
+212     uint8_t *dados;\par
+213     {\cf18 int} bits_de_lixo = 0, i; \par
+214     {\cf18 long} tamanho_arvore = 0;\par
+215     arquivo_comprimido = fopen(nome_arquivo, {\cf22 "rb"});\par
+216     {\cf19 if}(arquivo_comprimido == NULL)\par
+217     \{\par
+218         printf({\cf22 "\\nN\'E3o foi poss\'EDvel encontrar o arquivo\\n"});\par
+219         exit(1);\par
+220     \}\par
+221     {\cf20 //buscando o final do arquivo}\par
+222     fseek(arquivo_comprimido, 0, SEEK_END);\par
+223     {\cf20 //pegando o tamanho do arquivo}\par
+224     {\cf18 long} tamanho_arquivo = ftell(arquivo_comprimido);\par
+225     {\cf20 //voltando para o inicio do arquivo}\par
+226     fseek(arquivo_comprimido, 0, SEEK_SET);\par
+227     {\cf20 //alocando memoria para a variavel dados}\par
+228     dados = malloc(tamanho_arquivo);\par
+229     {\cf19 if}(dados == NULL)\par
+230     \{\par
+231         printf({\cf22 "\\nN\'E3o foi poss\'EDvel alocar memoria para vetor do arquivo\\n"});\par
+232         exit(1);\par
+233     \}\par
+234     {\cf20 //setando 0 em todas as posicos de dados}\par
+235     memset(dados, 0, tamanho_arquivo);\par
+236     {\cf20 //pegando todos os bytes do arquivo}\par
+237     fread(dados, 1, tamanho_arquivo, arquivo_comprimido);\par
+238     {\cf20 //fechando o arquivo}\par
+239     fclose(arquivo_comprimido);\par
+240 \par
+241     {\cf20 //pegando a quantidade de bits de lixo que temos e o tamanho da arvore}\par
+242     bits_de_lixo_e_tamanho_da_arvore(&bits_de_lixo, &tamanho_arvore, dados);\par
+243     {\cf20 //montando a arvore de huffman}\par
+244     i = 2;\par
+245     arvore_huffman_descomprimida = montar_arvore_huffman_D(arvore_huffman_descomprimida, dados, &i, tamanho_arvore + 2);\par
+246 \par
+247     {\cf20 //escrevendo arquivo descompactado}\par
+248     {\cf18 int} tamanho_nome_arquivo = strlen(nome_arquivo);\par
+249     nome_arquivo[tamanho_nome_arquivo - 5] = {\cf23 '\\0'};\par
+250     arquivo_descomprimido = fopen(nome_arquivo, {\cf22 "wb"});\par
+251     {\cf19 if}(arquivo_descomprimido == NULL)\par
+252     \{\par
+253         printf({\cf22 "\\nN\'E3o foi poss\'EDvel criar um arquivo de sa\'EDda\\n"});\par
+254         exit(1);\par
+255     \}\par
+256     escrever_arquivo(arquivo_descomprimido, dados, tamanho_arquivo, i, arvore_huffman_descomprimida, bits_de_lixo);\par
+257 \par
+258     {\cf20 //liberando o espa\'E7o}\par
+259     free(dados);\par
+260     free_arvore_huffman_D(arvore_huffman_descomprimida);\par
+261     arvore_huffman_descomprimida = NULL;\par
+262     dados = NULL;\par
+263 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo codes/huffman/huffman.c\par \pard\plain 
+{\tc\tcl2 \v codes/huffman/huffman.c}
+{\xe \v codes/huffman/huffman.c}
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "comprimir.h"}\par
+{\f2 #include "descomprimir.h"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b main} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Fun\'E7\'F5es\par
+\pard\plain 
+{\xe \v main\:huffman.c}
+{\xe \v huffman.c\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void main ()}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+c\'F3digo de huffman UFAL\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Autor\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+PL\'C1CIDO AUGUSTUS DE OLIVEIRA CORDEIRO, RIAN ANTONIO DA SILVA GAI\'C3O, NELSON ALVES SOUZA MOREIRA \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Vers\'E3o\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+1.0 \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Desde\par}\pard\plain \s82\li720\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+01/10/2023 \par
+}}}{
+\pard\plain \s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 16 \{\par
+17     {\cf18 int} opcao = -1;\par
+18 \par
+19     {\cf19 do}\par
+20     \{\par
+21         printf({\cf22 "\\n\\n\\t < ESCOLHA UMA A\'C7\'C3O A SER REALIZADA >\\n\\n[1] COMPRIMIR ARQUIVO\\n[2] DESCOMPRIMIR ARQUIVO\\n[0] ENCERRAR PROGRAMA\\n"});\par
+22         scanf({\cf22 "%d"}, &opcao);\par
+23         {\cf18 char} nome_arquivo[106];\par
+24         {\cf19 switch} (opcao)\par
+25         \{\par
+26         {\cf19 case} 1:\par
+27             printf({\cf22 "\\nEscreva o nome do arquivo (incluindo a extens\'E3o dele): \\n"});\par
+28             scanf({\cf22 "%s"}, nome_arquivo);\par
+29             printf({\cf22 "\\nIniciando compress\'E3o do arquivo...\\n"});\par
+30             comprimir(nome_arquivo);\par
+31             {\cf19 break};\par
+32         {\cf19 case} 2:\par
+33             printf({\cf22 "\\nEscreva o nome do arquivo (incluindo a extens\'E3o dele): \\n"});\par
+34             scanf({\cf22 "%s"}, nome_arquivo);\par
+35             printf({\cf22 "\\nIniciando descompress\'E3o do arquivo...\\n"});\par
+36             descomprimir(nome_arquivo);\par
+37             {\cf19 break};\par
+38         {\cf19 case} 0:\par
+39             printf({\cf22 "\\nEncerrando programa...\\n"});\par
+40             {\cf19 break};\par
+41         {\cf19 default}:\par
+42             printf({\cf22 "\\nOp\'E7\'E3o inv\'E1lida, escolha novamente!\\n"});\par
+43             {\cf19 break};\par
+44         \}\par
+45     \} {\cf19 while}(opcao != 0);\par
+46 \}\par
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Refer\'EAncia do Arquivo codes/huffman/structs_huffman.h\par \pard\plain 
+{\tc\tcl2 \v codes/huffman/structs_huffman.h}
+{\xe \v codes/huffman/structs_huffman.h}
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <stdio.h>}\par
+{\f2 #include <stdlib.h>}\par
+{\f2 #include <string.h>}\par
+{\f2 #include <stdbool.h>}\par
+{\f2 #include <stdint.h>}\par
+{\f2 #include <arpa/inet.h>}\par
+{\f2 #include <unistd.h>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e Macros\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b Max_table}\~ 256\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es de Tipos\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+typedef struct {\b arvore} {\b Arvore}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+typedef struct {\b arvore_descomprimida} {\b Arvore_D}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es e macros\par
+\pard\plain 
+{\xe \v Max_table\:structs_huffman.h}
+{\xe \v structs_huffman.h\:Max_table}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define Max_table\~ 256}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Defini\'E7\'F5es dos tipos\par
+\pard\plain 
+{\xe \v Arvore\:structs_huffman.h}
+{\xe \v structs_huffman.h\:Arvore}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+typedef struct {\b arvore} {\b Arvore}}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Arvore_D\:structs_huffman.h}
+{\xe \v structs_huffman.h\:Arvore_D}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+typedef struct {\b arvore_descomprimida} {\b Arvore_D}}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+structs_huffman.h\par \pard\plain 
+{\tc\tcl2 \v codes/huffman/structs_huffman.h}
+{\xe \v codes/huffman/structs_huffman.h}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+Ir para a documenta\'E7\'E3o desse arquivo.\par
+{
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 1 {\cf21 #include <stdio.h>}\par
+2 {\cf21 #include <stdlib.h>}\par
+3 {\cf21 #include <string.h>}\par
+4 {\cf21 #include <stdbool.h>}\par
+5 {\cf21 #include <stdint.h>}\par
+6 {\cf21 #include <arpa/inet.h>}\par
+7 {\cf21 #ifdef _WIN32}\par
+8 {\cf21 #include <Windows.h>}\par
+9 {\cf21 #else}\par
+10 {\cf21 #include <unistd.h>}\par
+11 {\cf21 #endif}\par
+12 \par
+13 {\cf21 #define Max_table 256}\par
+14 \par
+15 {\cf17 typedef} {\cf17 struct }arvore Arvore;\par
+16 {\cf17 typedef} {\cf17 struct }arvore_descomprimida Arvore_D;\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Sum\'E1rio\par 
+\pard\plain 
+{\tc \v Sum\'E1rio}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

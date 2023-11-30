@@ -1,0 +1,592 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Documentação huffman: Referência do Arquivo codes/huffman/descomprimir.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Documentação huffman<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Documentação do projeto de estrutura de dados.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_530ef000231ec771096484ebea034701.html">codes</a></li><li class="navelem"><a class="el" href="dir_eb0b2cebd22aec8d6384de274c2f54b9.html">huffman</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Componentes</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo descomprimir.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="structs__huffman_8h_source.html">structs_huffman.h</a>&quot;</code><br />
+</div>
+<p><a href="descomprimir_8h_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Componentes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structarvore__descomprimida.html">arvore_descomprimida</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a919f3a15498d3530160e5eb4978eaf40" id="r_a919f3a15498d3530160e5eb4978eaf40"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="descomprimir_8h.html#a919f3a15498d3530160e5eb4978eaf40">esta_setado</a> (uint8_t c, int i)</td></tr>
+<tr class="separator:a919f3a15498d3530160e5eb4978eaf40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384eff7aa65518344082dea9d5a0d15d" id="r_a384eff7aa65518344082dea9d5a0d15d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="descomprimir_8h.html#a384eff7aa65518344082dea9d5a0d15d">bits_de_lixo_e_tamanho_da_arvore</a> (int *<a class="el" href="comprimir_8h.html#a0f1bd642df001ee44c0eac0b01b94f1a">lixo</a>, long *<a class="el" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a>, uint8_t *dados)</td></tr>
+<tr class="memdesc:a384eff7aa65518344082dea9d5a0d15d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Em resumo, esta função extrai os bits de lixo e o tamanho da árvore de Huffman do cabeçalho de um arquivo comprimido e armazena essas informações nas variáveis *lixo e *tamanho_arvore para uso posterior no processo de descompactação.  <br /></td></tr>
+<tr class="separator:a384eff7aa65518344082dea9d5a0d15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7e0002855dab138cf68db240210343" id="r_aff7e0002855dab138cf68db240210343"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="descomprimir_8h.html#aff7e0002855dab138cf68db240210343">novo_no_arvore_D</a> (void *i)</td></tr>
+<tr class="memdesc:aff7e0002855dab138cf68db240210343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Essa função é responsável por criar um novo nó para nossa árvore descompactada.  <br /></td></tr>
+<tr class="separator:aff7e0002855dab138cf68db240210343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8f73e4a0aac4c1167edb5ff7a0e7b4" id="r_adc8f73e4a0aac4c1167edb5ff7a0e7b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="descomprimir_8h.html#adc8f73e4a0aac4c1167edb5ff7a0e7b4">montar_arvore_huffman_D</a> (<a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *raiz, uint8_t *dados, int *i, long <a class="el" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a>)</td></tr>
+<tr class="memdesc:adc8f73e4a0aac4c1167edb5ff7a0e7b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">esta função é responsável por reconstruir a árvore de Huffman a partir dos dados do cabeçalho de um arquivo comprimido. A árvore resultante é usada na descompactação para mapear os códigos binários de volta para os caracteres originais.  <br /></td></tr>
+<tr class="separator:adc8f73e4a0aac4c1167edb5ff7a0e7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5184d4ff723880c37673b74a78c45a26" id="r_a5184d4ff723880c37673b74a78c45a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="descomprimir_8h.html#a5184d4ff723880c37673b74a78c45a26">escrever_arquivo</a> (FILE *arquivo_descomprimido, uint8_t *dados, long tamanho_arquivo, long i, <a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *<a class="el" href="structarvore.html">arvore</a>, int <a class="el" href="comprimir_8h.html#a0f1bd642df001ee44c0eac0b01b94f1a">lixo</a>)</td></tr>
+<tr class="memdesc:a5184d4ff723880c37673b74a78c45a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Esta função é responsável por descompactar os dados compactados usando a árvore de Huffman e escrever os dados descompactados no arquivo de saída.  <br /></td></tr>
+<tr class="separator:a5184d4ff723880c37673b74a78c45a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8912d9b8b88b163c23c89b36e61c445e" id="r_a8912d9b8b88b163c23c89b36e61c445e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="descomprimir_8h.html#a8912d9b8b88b163c23c89b36e61c445e">free_arvore_huffman_D</a> (<a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *raiz)</td></tr>
+<tr class="memdesc:a8912d9b8b88b163c23c89b36e61c445e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Esta função é usada para liberar a memória alocada para a árvore de Huffman após o processo de descompactação ser concluído.  <br /></td></tr>
+<tr class="separator:a8912d9b8b88b163c23c89b36e61c445e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d3b4380f0f2b37e6477010f95f00bd" id="r_aa1d3b4380f0f2b37e6477010f95f00bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="descomprimir_8h.html#aa1d3b4380f0f2b37e6477010f95f00bd">descomprimir</a> (char *nome_arquivo)</td></tr>
+<tr class="memdesc:aa1d3b4380f0f2b37e6477010f95f00bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Essa função descomprime um arquivo no formato Huffman, criando a árvore de Huffman a partir dos dados e escrevendo o arquivo descompactado no diretório do nosso programa.  <br /></td></tr>
+<tr class="separator:aa1d3b4380f0f2b37e6477010f95f00bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="a384eff7aa65518344082dea9d5a0d15d" name="a384eff7aa65518344082dea9d5a0d15d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a384eff7aa65518344082dea9d5a0d15d">&#9670;&#160;</a></span>bits_de_lixo_e_tamanho_da_arvore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bits_de_lixo_e_tamanho_da_arvore </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>lixo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long *&#160;</td>
+          <td class="paramname"><em>tamanho_arvore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dados</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Em resumo, esta função extrai os bits de lixo e o tamanho da árvore de Huffman do cabeçalho de um arquivo comprimido e armazena essas informações nas variáveis *lixo e *tamanho_arvore para uso posterior no processo de descompactação. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lixo</td><td>Um ponteiro para um inteiro que será usado para armazenar o número de bits de lixo no final do arquivo. </td></tr>
+    <tr><td class="paramname">tamanho_arvore</td><td>Um ponteiro para um long que será usado para armazenar o tamanho da árvore de Huffman. </td></tr>
+    <tr><td class="paramname">dados</td><td>Um ponteiro para um array de bytes que contém o cabeçalho do arquivo comprimido. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordtype">int</span> i, j, k, bit;</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mascara;</div>
+<div class="line"><span class="lineno">   38</span>    <span class="comment">//primeiro pegamos os bits referente ao lixo</span></div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">for</span>(i = 7, j = 0; i &gt;= 5; i--, j++)</div>
+<div class="line"><span class="lineno">   40</span>    {</div>
+<div class="line"><span class="lineno">   41</span>        bit = <a class="code hl_function" href="descomprimir_8h.html#a919f3a15498d3530160e5eb4978eaf40">esta_setado</a>(dados[0], i); </div>
+<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">if</span>(bit)</div>
+<div class="line"><span class="lineno">   43</span>        {</div>
+<div class="line"><span class="lineno">   44</span>            *<a class="code hl_function" href="comprimir_8h.html#a0f1bd642df001ee44c0eac0b01b94f1a">lixo</a> |= 1 &lt;&lt; j;</div>
+<div class="line"><span class="lineno">   45</span>        }</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="line"><span class="lineno">   47</span>    </div>
+<div class="line"><span class="lineno">   48</span>    <span class="comment">//pegando os bits do tamanho da arvore</span></div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">for</span>(i = 4, j = 12, k = 0; j &gt;= 0; j--)</div>
+<div class="line"><span class="lineno">   50</span>    {</div>
+<div class="line"><span class="lineno">   51</span>        bit = <a class="code hl_function" href="descomprimir_8h.html#a919f3a15498d3530160e5eb4978eaf40">esta_setado</a>(dados[k], i); </div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">if</span>(bit)</div>
+<div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            *<a class="code hl_function" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a> |= 1 &lt;&lt; j;</div>
+<div class="line"><span class="lineno">   55</span>        }</div>
+<div class="line"><span class="lineno">   56</span>        i--;</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">if</span>(i &lt; 0)</div>
+<div class="line"><span class="lineno">   58</span>        {</div>
+<div class="line"><span class="lineno">   59</span>            i = 7;</div>
+<div class="line"><span class="lineno">   60</span>            k++;</div>
+<div class="line"><span class="lineno">   61</span>        }</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   65</span>}</div>
+<div class="ttc" id="acomprimir_8h_html_a0e38f56cdaeb7ae9c8711bb79fdb5bc4"><div class="ttname"><a href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a></div><div class="ttdeci">long tamanho_arvore(Arvore *no_arvore)</div><div class="ttdoc">Essa função é usada para calcular o número de nós em uma árvore.</div><div class="ttdef"><b>Definição</b> comprimir.h:180</div></div>
+<div class="ttc" id="acomprimir_8h_html_a0f1bd642df001ee44c0eac0b01b94f1a"><div class="ttname"><a href="comprimir_8h.html#a0f1bd642df001ee44c0eac0b01b94f1a">lixo</a></div><div class="ttdeci">int lixo(uint8_t **dicionario, long *frequencia)</div><div class="ttdoc">Responsável por calcular o número de bits &quot;desperdiçados&quot; ou economizados após a codificação de Huffm...</div><div class="ttdef"><b>Definição</b> comprimir.h:267</div></div>
+<div class="ttc" id="adescomprimir_8h_html_a919f3a15498d3530160e5eb4978eaf40"><div class="ttname"><a href="descomprimir_8h.html#a919f3a15498d3530160e5eb4978eaf40">esta_setado</a></div><div class="ttdeci">int esta_setado(uint8_t c, int i)</div><div class="ttdef"><b>Definição</b> descomprimir.h:18</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa1d3b4380f0f2b37e6477010f95f00bd" name="aa1d3b4380f0f2b37e6477010f95f00bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d3b4380f0f2b37e6477010f95f00bd">&#9670;&#160;</a></span>descomprimir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void descomprimir </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nome_arquivo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Essa função descomprime um arquivo no formato Huffman, criando a árvore de Huffman a partir dos dados e escrevendo o arquivo descompactado no diretório do nosso programa. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nome_arquivo</td><td>Uma string contendo o nome do arquivo que será descomprimido. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  209</span>{</div>
+<div class="line"><span class="lineno">  210</span>    FILE *arquivo_comprimido, *arquivo_descomprimido;</div>
+<div class="line"><span class="lineno">  211</span>    <a class="code hl_struct" href="structarvore__descomprimida.html">Arvore_D</a> *arvore_huffman_descomprimida = NULL;</div>
+<div class="line"><span class="lineno">  212</span>    uint8_t *dados;</div>
+<div class="line"><span class="lineno">  213</span>    <span class="keywordtype">int</span> bits_de_lixo = 0, i; </div>
+<div class="line"><span class="lineno">  214</span>    <span class="keywordtype">long</span> <a class="code hl_function" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a> = 0;</div>
+<div class="line"><span class="lineno">  215</span>    arquivo_comprimido = fopen(nome_arquivo, <span class="stringliteral">&quot;rb&quot;</span>);</div>
+<div class="line"><span class="lineno">  216</span>    <span class="keywordflow">if</span>(arquivo_comprimido == NULL)</div>
+<div class="line"><span class="lineno">  217</span>    {</div>
+<div class="line"><span class="lineno">  218</span>        printf(<span class="stringliteral">&quot;\nNão foi possível encontrar o arquivo\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  219</span>        exit(1);</div>
+<div class="line"><span class="lineno">  220</span>    }</div>
+<div class="line"><span class="lineno">  221</span>    <span class="comment">//buscando o final do arquivo</span></div>
+<div class="line"><span class="lineno">  222</span>    fseek(arquivo_comprimido, 0, SEEK_END);</div>
+<div class="line"><span class="lineno">  223</span>    <span class="comment">//pegando o tamanho do arquivo</span></div>
+<div class="line"><span class="lineno">  224</span>    <span class="keywordtype">long</span> tamanho_arquivo = ftell(arquivo_comprimido);</div>
+<div class="line"><span class="lineno">  225</span>    <span class="comment">//voltando para o inicio do arquivo</span></div>
+<div class="line"><span class="lineno">  226</span>    fseek(arquivo_comprimido, 0, SEEK_SET);</div>
+<div class="line"><span class="lineno">  227</span>    <span class="comment">//alocando memoria para a variavel dados</span></div>
+<div class="line"><span class="lineno">  228</span>    dados = malloc(tamanho_arquivo);</div>
+<div class="line"><span class="lineno">  229</span>    <span class="keywordflow">if</span>(dados == NULL)</div>
+<div class="line"><span class="lineno">  230</span>    {</div>
+<div class="line"><span class="lineno">  231</span>        printf(<span class="stringliteral">&quot;\nNão foi possível alocar memoria para vetor do arquivo\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  232</span>        exit(1);</div>
+<div class="line"><span class="lineno">  233</span>    }</div>
+<div class="line"><span class="lineno">  234</span>    <span class="comment">//setando 0 em todas as posicos de dados</span></div>
+<div class="line"><span class="lineno">  235</span>    memset(dados, 0, tamanho_arquivo);</div>
+<div class="line"><span class="lineno">  236</span>    <span class="comment">//pegando todos os bytes do arquivo</span></div>
+<div class="line"><span class="lineno">  237</span>    fread(dados, 1, tamanho_arquivo, arquivo_comprimido);</div>
+<div class="line"><span class="lineno">  238</span>    <span class="comment">//fechando o arquivo</span></div>
+<div class="line"><span class="lineno">  239</span>    fclose(arquivo_comprimido);</div>
+<div class="line"><span class="lineno">  240</span> </div>
+<div class="line"><span class="lineno">  241</span>    <span class="comment">//pegando a quantidade de bits de lixo que temos e o tamanho da arvore</span></div>
+<div class="line"><span class="lineno">  242</span>    <a class="code hl_function" href="descomprimir_8h.html#a384eff7aa65518344082dea9d5a0d15d">bits_de_lixo_e_tamanho_da_arvore</a>(&amp;bits_de_lixo, &amp;<a class="code hl_function" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a>, dados);</div>
+<div class="line"><span class="lineno">  243</span>    <span class="comment">//montando a arvore de huffman</span></div>
+<div class="line"><span class="lineno">  244</span>    i = 2;</div>
+<div class="line"><span class="lineno">  245</span>    arvore_huffman_descomprimida = <a class="code hl_function" href="descomprimir_8h.html#adc8f73e4a0aac4c1167edb5ff7a0e7b4">montar_arvore_huffman_D</a>(arvore_huffman_descomprimida, dados, &amp;i, <a class="code hl_function" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a> + 2);</div>
+<div class="line"><span class="lineno">  246</span> </div>
+<div class="line"><span class="lineno">  247</span>    <span class="comment">//escrevendo arquivo descompactado</span></div>
+<div class="line"><span class="lineno">  248</span>    <span class="keywordtype">int</span> tamanho_nome_arquivo = strlen(nome_arquivo);</div>
+<div class="line"><span class="lineno">  249</span>    nome_arquivo[tamanho_nome_arquivo - 5] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno">  250</span>    arquivo_descomprimido = fopen(nome_arquivo, <span class="stringliteral">&quot;wb&quot;</span>);</div>
+<div class="line"><span class="lineno">  251</span>    <span class="keywordflow">if</span>(arquivo_descomprimido == NULL)</div>
+<div class="line"><span class="lineno">  252</span>    {</div>
+<div class="line"><span class="lineno">  253</span>        printf(<span class="stringliteral">&quot;\nNão foi possível criar um arquivo de saída\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  254</span>        exit(1);</div>
+<div class="line"><span class="lineno">  255</span>    }</div>
+<div class="line"><span class="lineno">  256</span>    <a class="code hl_function" href="descomprimir_8h.html#a5184d4ff723880c37673b74a78c45a26">escrever_arquivo</a>(arquivo_descomprimido, dados, tamanho_arquivo, i, arvore_huffman_descomprimida, bits_de_lixo);</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>    <span class="comment">//liberando o espaço</span></div>
+<div class="line"><span class="lineno">  259</span>    free(dados);</div>
+<div class="line"><span class="lineno">  260</span>    <a class="code hl_function" href="descomprimir_8h.html#a8912d9b8b88b163c23c89b36e61c445e">free_arvore_huffman_D</a>(arvore_huffman_descomprimida);</div>
+<div class="line"><span class="lineno">  261</span>    arvore_huffman_descomprimida = NULL;</div>
+<div class="line"><span class="lineno">  262</span>    dados = NULL;</div>
+<div class="line"><span class="lineno">  263</span>}</div>
+<div class="ttc" id="adescomprimir_8h_html_a384eff7aa65518344082dea9d5a0d15d"><div class="ttname"><a href="descomprimir_8h.html#a384eff7aa65518344082dea9d5a0d15d">bits_de_lixo_e_tamanho_da_arvore</a></div><div class="ttdeci">void bits_de_lixo_e_tamanho_da_arvore(int *lixo, long *tamanho_arvore, uint8_t *dados)</div><div class="ttdoc">Em resumo, esta função extrai os bits de lixo e o tamanho da árvore de Huffman do cabeçalho de um arq...</div><div class="ttdef"><b>Definição</b> descomprimir.h:34</div></div>
+<div class="ttc" id="adescomprimir_8h_html_a5184d4ff723880c37673b74a78c45a26"><div class="ttname"><a href="descomprimir_8h.html#a5184d4ff723880c37673b74a78c45a26">escrever_arquivo</a></div><div class="ttdeci">void escrever_arquivo(FILE *arquivo_descomprimido, uint8_t *dados, long tamanho_arquivo, long i, Arvore_D *arvore, int lixo)</div><div class="ttdoc">Esta função é responsável por descompactar os dados compactados usando a árvore de Huffman e escrever...</div><div class="ttdef"><b>Definição</b> descomprimir.h:151</div></div>
+<div class="ttc" id="adescomprimir_8h_html_a8912d9b8b88b163c23c89b36e61c445e"><div class="ttname"><a href="descomprimir_8h.html#a8912d9b8b88b163c23c89b36e61c445e">free_arvore_huffman_D</a></div><div class="ttdeci">void free_arvore_huffman_D(Arvore_D *raiz)</div><div class="ttdoc">Esta função é usada para liberar a memória alocada para a árvore de Huffman após o processo de descom...</div><div class="ttdef"><b>Definição</b> descomprimir.h:188</div></div>
+<div class="ttc" id="adescomprimir_8h_html_adc8f73e4a0aac4c1167edb5ff7a0e7b4"><div class="ttname"><a href="descomprimir_8h.html#adc8f73e4a0aac4c1167edb5ff7a0e7b4">montar_arvore_huffman_D</a></div><div class="ttdeci">Arvore_D * montar_arvore_huffman_D(Arvore_D *raiz, uint8_t *dados, int *i, long tamanho_arvore)</div><div class="ttdoc">esta função é responsável por reconstruir a árvore de Huffman a partir dos dados do cabeçalho de um a...</div><div class="ttdef"><b>Definição</b> descomprimir.h:105</div></div>
+<div class="ttc" id="astructarvore__descomprimida_html"><div class="ttname"><a href="structarvore__descomprimida.html">arvore_descomprimida</a></div><div class="ttdef"><b>Definição</b> descomprimir.h:5</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5184d4ff723880c37673b74a78c45a26" name="a5184d4ff723880c37673b74a78c45a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5184d4ff723880c37673b74a78c45a26">&#9670;&#160;</a></span>escrever_arquivo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void escrever_arquivo </td>
+          <td>(</td>
+          <td class="paramtype">FILE *&#160;</td>
+          <td class="paramname"><em>arquivo_descomprimido</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dados</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>tamanho_arquivo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *&#160;</td>
+          <td class="paramname"><em>arvore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lixo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Esta função é responsável por descompactar os dados compactados usando a árvore de Huffman e escrever os dados descompactados no arquivo de saída. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arquivo_descomprimido</td><td>Um ponteiro para o arquivo de saída onde os dados descompactados serão escritos. </td></tr>
+    <tr><td class="paramname">dados</td><td>Um ponteiro para um array de bytes que contém os dados compactados a serem descompactados. </td></tr>
+    <tr><td class="paramname">tamanho_arquivo</td><td>O tamanho total do arquivo compactado em bytes. </td></tr>
+    <tr><td class="paramname">i</td><td>Um índice que representa a posição atual nos dados compactados. </td></tr>
+    <tr><td class="paramname">arvore</td><td>A raiz da árvore de Huffman que foi previamente montada a partir do cabeçalho do arquivo compactado. </td></tr>
+    <tr><td class="paramname">lixo</td><td>O número de bits de lixo no final do arquivo compactado. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  152</span>{</div>
+<div class="line"><span class="lineno">  153</span>    <a class="code hl_struct" href="structarvore__descomprimida.html">Arvore_D</a>* aux = <a class="code hl_struct" href="structarvore.html">arvore</a>;</div>
+<div class="line"><span class="lineno">  154</span> </div>
+<div class="line"><span class="lineno">  155</span>    <span class="keywordflow">while</span>(i &lt; tamanho_arquivo)</div>
+<div class="line"><span class="lineno">  156</span>    {</div>
+<div class="line"><span class="lineno">  157</span>        uint8_t <span class="keywordtype">byte</span> = dados[i];</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 7; j &gt;= 0; j--)</div>
+<div class="line"><span class="lineno">  160</span>        {</div>
+<div class="line"><span class="lineno">  161</span>            <span class="keywordflow">if</span>(i == tamanho_arquivo - 1 &amp;&amp; j &lt; <a class="code hl_function" href="comprimir_8h.html#a0f1bd642df001ee44c0eac0b01b94f1a">lixo</a>) <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="descomprimir_8h.html#a919f3a15498d3530160e5eb4978eaf40">esta_setado</a>(<span class="keywordtype">byte</span>, j))</div>
+<div class="line"><span class="lineno">  164</span>            {</div>
+<div class="line"><span class="lineno">  165</span>                aux = aux-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a448d38575ddc6d2cef565ac2aea5ff8c">direita</a>;</div>
+<div class="line"><span class="lineno">  166</span>            }</div>
+<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  168</span>            {</div>
+<div class="line"><span class="lineno">  169</span>                aux = aux-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a20b711e4d50be4c68bd2e17cad6903bd">esquerda</a>;</div>
+<div class="line"><span class="lineno">  170</span>            }</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>            <span class="keywordflow">if</span>(aux-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a448d38575ddc6d2cef565ac2aea5ff8c">direita</a> == NULL &amp;&amp; aux-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a20b711e4d50be4c68bd2e17cad6903bd">esquerda</a> == NULL)</div>
+<div class="line"><span class="lineno">  173</span>            {</div>
+<div class="line"><span class="lineno">  174</span>                fwrite(&amp;(*(uint8_t *)aux-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#ae388fb8ccf011fa7c7af0762d329ab78">byte</a>), <span class="keyword">sizeof</span>(uint8_t), 1, arquivo_descomprimido);</div>
+<div class="line"><span class="lineno">  175</span>                aux = <a class="code hl_struct" href="structarvore.html">arvore</a>;</div>
+<div class="line"><span class="lineno">  176</span>            }</div>
+<div class="line"><span class="lineno">  177</span>        }</div>
+<div class="line"><span class="lineno">  178</span>        i++;</div>
+<div class="line"><span class="lineno">  179</span>    }</div>
+<div class="line"><span class="lineno">  180</span>}</div>
+<div class="ttc" id="astructarvore__descomprimida_html_a20b711e4d50be4c68bd2e17cad6903bd"><div class="ttname"><a href="structarvore__descomprimida.html#a20b711e4d50be4c68bd2e17cad6903bd">arvore_descomprimida::esquerda</a></div><div class="ttdeci">Arvore_D * esquerda</div><div class="ttdef"><b>Definição</b> descomprimir.h:7</div></div>
+<div class="ttc" id="astructarvore__descomprimida_html_a448d38575ddc6d2cef565ac2aea5ff8c"><div class="ttname"><a href="structarvore__descomprimida.html#a448d38575ddc6d2cef565ac2aea5ff8c">arvore_descomprimida::direita</a></div><div class="ttdeci">Arvore_D * direita</div><div class="ttdef"><b>Definição</b> descomprimir.h:7</div></div>
+<div class="ttc" id="astructarvore__descomprimida_html_ae388fb8ccf011fa7c7af0762d329ab78"><div class="ttname"><a href="structarvore__descomprimida.html#ae388fb8ccf011fa7c7af0762d329ab78">arvore_descomprimida::byte</a></div><div class="ttdeci">void * byte</div><div class="ttdef"><b>Definição</b> descomprimir.h:6</div></div>
+<div class="ttc" id="astructarvore_html"><div class="ttname"><a href="structarvore.html">arvore</a></div><div class="ttdef"><b>Definição</b> comprimir.h:4</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a919f3a15498d3530160e5eb4978eaf40" name="a919f3a15498d3530160e5eb4978eaf40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a919f3a15498d3530160e5eb4978eaf40">&#9670;&#160;</a></span>esta_setado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int esta_setado </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>É um valor de 8 bits (byte) em que você deseja verificar se um bit específico está definido ou não. </td></tr>
+    <tr><td class="paramname">i</td><td>É o índice do bit que você deseja verificar, variando de 0 a 7, onde 0 representa o bit menos significativo e 7 representa o bit mais significativo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>O resultado da operação de AND como um valor 0 ou 1, indicando se o bit estava definido ou não. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   19</span>{</div>
+<div class="line"><span class="lineno">   20</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> mascara = 1 &lt;&lt; i;</div>
+<div class="line"><span class="lineno">   21</span>    <span class="keywordflow">return</span> mascara &amp; c;</div>
+<div class="line"><span class="lineno">   22</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8912d9b8b88b163c23c89b36e61c445e" name="a8912d9b8b88b163c23c89b36e61c445e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8912d9b8b88b163c23c89b36e61c445e">&#9670;&#160;</a></span>free_arvore_huffman_D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void free_arvore_huffman_D </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *&#160;</td>
+          <td class="paramname"><em>raiz</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Esta função é usada para liberar a memória alocada para a árvore de Huffman após o processo de descompactação ser concluído. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">raiz</td><td>Um ponteiro para a raiz da árvore de Huffman a ser liberada. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  189</span>{</div>
+<div class="line"><span class="lineno">  190</span>    <span class="keywordflow">if</span>(raiz == NULL)</div>
+<div class="line"><span class="lineno">  191</span>    {</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  193</span>    }</div>
+<div class="line"><span class="lineno">  194</span>    <a class="code hl_function" href="descomprimir_8h.html#a8912d9b8b88b163c23c89b36e61c445e">free_arvore_huffman_D</a>(raiz-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a20b711e4d50be4c68bd2e17cad6903bd">esquerda</a>);</div>
+<div class="line"><span class="lineno">  195</span>    <a class="code hl_function" href="descomprimir_8h.html#a8912d9b8b88b163c23c89b36e61c445e">free_arvore_huffman_D</a>(raiz-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a448d38575ddc6d2cef565ac2aea5ff8c">direita</a>);</div>
+<div class="line"><span class="lineno">  196</span>    free(raiz-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#ae388fb8ccf011fa7c7af0762d329ab78">byte</a>);</div>
+<div class="line"><span class="lineno">  197</span>    free(raiz);</div>
+<div class="line"><span class="lineno">  198</span> </div>
+<div class="line"><span class="lineno">  199</span>    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  200</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adc8f73e4a0aac4c1167edb5ff7a0e7b4" name="adc8f73e4a0aac4c1167edb5ff7a0e7b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc8f73e4a0aac4c1167edb5ff7a0e7b4">&#9670;&#160;</a></span>montar_arvore_huffman_D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> * montar_arvore_huffman_D </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> *&#160;</td>
+          <td class="paramname"><em>raiz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dados</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>tamanho_arvore</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>esta função é responsável por reconstruir a árvore de Huffman a partir dos dados do cabeçalho de um arquivo comprimido. A árvore resultante é usada na descompactação para mapear os códigos binários de volta para os caracteres originais. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">raiz</td><td>Um ponteiro para um nó da árvore de Huffman que representa a raiz da árvore. </td></tr>
+    <tr><td class="paramname">dados</td><td>Um ponteiro para um array de bytes que contém os dados do cabeçalho do arquivo comprimido. </td></tr>
+    <tr><td class="paramname">i</td><td>Um ponteiro para um inteiro que representa a posição atual nos dados do cabeçalho. </td></tr>
+    <tr><td class="paramname">tamanho_arvore</td><td>Um longo que representa o tamanho da árvore de Huffman nos dados do cabeçalho. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A nossa árvore de Huffman usada para a descompactação. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  106</span>{</div>
+<div class="line"><span class="lineno">  107</span>    <span class="keywordflow">if</span>(*i == <a class="code hl_function" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a>)</div>
+<div class="line"><span class="lineno">  108</span>    {</div>
+<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><span class="lineno">  110</span>    }</div>
+<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  112</span>    {</div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">if</span>(dados[*i] == <span class="charliteral">&#39;\\&#39;</span>)</div>
+<div class="line"><span class="lineno">  114</span>        {</div>
+<div class="line"><span class="lineno">  115</span>            (*i)++;</div>
+<div class="line"><span class="lineno">  116</span>            raiz = <a class="code hl_function" href="descomprimir_8h.html#aff7e0002855dab138cf68db240210343">novo_no_arvore_D</a>(&amp;dados[*i]);</div>
+<div class="line"><span class="lineno">  117</span>            (*i)++;</div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">return</span> raiz;</div>
+<div class="line"><span class="lineno">  119</span>        }</div>
+<div class="line"><span class="lineno">  120</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(dados[*i] == <span class="charliteral">&#39;*&#39;</span>)</div>
+<div class="line"><span class="lineno">  121</span>        {</div>
+<div class="line"><span class="lineno">  122</span>            raiz = <a class="code hl_function" href="descomprimir_8h.html#aff7e0002855dab138cf68db240210343">novo_no_arvore_D</a>(&amp;dados[*i]);</div>
+<div class="line"><span class="lineno">  123</span>            (*i)++;</div>
+<div class="line"><span class="lineno">  124</span>            raiz-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a20b711e4d50be4c68bd2e17cad6903bd">esquerda</a> = <a class="code hl_function" href="descomprimir_8h.html#adc8f73e4a0aac4c1167edb5ff7a0e7b4">montar_arvore_huffman_D</a>(raiz-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a20b711e4d50be4c68bd2e17cad6903bd">esquerda</a>, dados, i, <a class="code hl_function" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a>);</div>
+<div class="line"><span class="lineno">  125</span>            raiz-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a448d38575ddc6d2cef565ac2aea5ff8c">direita</a> = <a class="code hl_function" href="descomprimir_8h.html#adc8f73e4a0aac4c1167edb5ff7a0e7b4">montar_arvore_huffman_D</a>(raiz-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a448d38575ddc6d2cef565ac2aea5ff8c">direita</a>, dados, i, <a class="code hl_function" href="comprimir_8h.html#a0e38f56cdaeb7ae9c8711bb79fdb5bc4">tamanho_arvore</a>);</div>
+<div class="line"><span class="lineno">  126</span>        }</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  128</span>        {</div>
+<div class="line"><span class="lineno">  129</span>            raiz = <a class="code hl_function" href="descomprimir_8h.html#aff7e0002855dab138cf68db240210343">novo_no_arvore_D</a>(&amp;dados[*i]);</div>
+<div class="line"><span class="lineno">  130</span>            (*i)++;</div>
+<div class="line"><span class="lineno">  131</span>            <span class="keywordflow">return</span> raiz;</div>
+<div class="line"><span class="lineno">  132</span>        }</div>
+<div class="line"><span class="lineno">  133</span>    }</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>    <span class="keywordflow">return</span> raiz;</div>
+<div class="line"><span class="lineno">  136</span>}</div>
+<div class="ttc" id="adescomprimir_8h_html_aff7e0002855dab138cf68db240210343"><div class="ttname"><a href="descomprimir_8h.html#aff7e0002855dab138cf68db240210343">novo_no_arvore_D</a></div><div class="ttdeci">Arvore_D * novo_no_arvore_D(void *i)</div><div class="ttdoc">Essa função é responsável por criar um novo nó para nossa árvore descompactada.</div><div class="ttdef"><b>Definição</b> descomprimir.h:73</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aff7e0002855dab138cf68db240210343" name="aff7e0002855dab138cf68db240210343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff7e0002855dab138cf68db240210343">&#9670;&#160;</a></span>novo_no_arvore_D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structs__huffman_8h.html#a6b83d6d9961c678d748a5cfc9d882872">Arvore_D</a> * novo_no_arvore_D </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Essa função é responsável por criar um novo nó para nossa árvore descompactada. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>O byte que deve ser inserido no nosso novo nó. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>O nosso novo nó. </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">   74</span>{</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_struct" href="structarvore__descomprimida.html">Arvore_D</a> *novo_no = (<a class="code hl_struct" href="structarvore__descomprimida.html">Arvore_D</a>*)malloc(<span class="keyword">sizeof</span>(<a class="code hl_struct" href="structarvore__descomprimida.html">Arvore_D</a>));</div>
+<div class="line"><span class="lineno">   76</span>    <span class="keywordflow">if</span>(novo_no == NULL)</div>
+<div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>        printf(<span class="stringliteral">&quot;\nErro ao alocar nó da árvore\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   79</span>        exit(1);</div>
+<div class="line"><span class="lineno">   80</span>    }</div>
+<div class="line"><span class="lineno">   81</span>    novo_no-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#ae388fb8ccf011fa7c7af0762d329ab78">byte</a> = (<span class="keywordtype">void</span>*)malloc(1);</div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">if</span>(novo_no-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#ae388fb8ccf011fa7c7af0762d329ab78">byte</a> == NULL)</div>
+<div class="line"><span class="lineno">   83</span>    {</div>
+<div class="line"><span class="lineno">   84</span>        printf(<span class="stringliteral">&quot;\nErro ao alocar byte\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   85</span>        exit(1);</div>
+<div class="line"><span class="lineno">   86</span>    }</div>
+<div class="line"><span class="lineno">   87</span>    memcpy(novo_no-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#ae388fb8ccf011fa7c7af0762d329ab78">byte</a>, i, 1);</div>
+<div class="line"><span class="lineno">   88</span>    novo_no-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a20b711e4d50be4c68bd2e17cad6903bd">esquerda</a> = NULL;</div>
+<div class="line"><span class="lineno">   89</span>    novo_no-&gt;<a class="code hl_variable" href="structarvore__descomprimida.html#a448d38575ddc6d2cef565ac2aea5ff8c">direita</a> = NULL;</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>    <span class="keywordflow">return</span> novo_no;</div>
+<div class="line"><span class="lineno">   92</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
